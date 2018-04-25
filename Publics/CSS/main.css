@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Footer en bas de page */
+    display: table;
+    width: 100%;
+}
+footer {
+    /* Footer en bas de page */
+    width: 100%;
+    display: table-row;
+}
+header {
+    background: beige;
+    color: black;
+}
+
+header, nav, section, aside, footer {
+    padding: 5px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+button {
+    width: 100%;
+}
+.social-networks{
+    margin-top: 3%;
+}
+.fa-twitter{
+    color: #1dcaff; 
+    font-size: 30px;
+}
+.fa-linkedin{
+    color: #0077B5; 
+    font-size: 30px;
+}
+.fa-github{
+    background: black;
+    color: white; 
+    font-size: 30px;
+}
+/*  Classe classique  */
+
+
