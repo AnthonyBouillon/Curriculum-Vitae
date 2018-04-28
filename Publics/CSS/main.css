@@ -4,47 +4,82 @@ body {
     margin: 0;
     padding: 0;
 }
+
 body {
     /* Footer en bas de page */
     display: table;
     width: 100%;
 }
+
 footer {
     /* Footer en bas de page */
     width: 100%;
+    height: 150px;
     display: table-row;
 }
+
 header {
     background: beige;
     color: black;
 }
 
-header, nav, section, aside, footer {
+header,
+nav,
+section,
+aside,
+footer {
     padding: 5px;
 }
-h1{
+
+h1 {
     margin-top: 0;
     margin-bottom: 1%;
 }
+
 button {
     width: 100%;
 }
-.social-networks{
+
+@media screen and (max-width: 320px) {
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.social-networks {
     margin-top: 3%;
 }
-.fa-twitter{
-    color: #1dcaff; 
+
+.fa-twitter {
+    color: #1dcaff;
     font-size: 30px;
 }
-.fa-linkedin{
-    color: #0077B5; 
+
+.fa-linkedin {
+    color: #0077B5;
     font-size: 30px;
 }
-.fa-github{
+
+.fa-github {
     background: black;
-    color: white; 
+    color: white;
     font-size: 30px;
 }
-/*  Classe classique  */
-
-
