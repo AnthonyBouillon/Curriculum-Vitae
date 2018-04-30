@@ -1,14 +1,17 @@
 <footer class="page-footer">
-    <div class="container">
+    <div class="container-fluid">
+
         <div class="row">
-            <div class="col l6 s12">
-                <h4 class="white-text">Anthony BOUILLON</h5>
-                    <p class="grey-text text-lighten-4">Haut de france; Le Plessis-Brion; 60150</p>
+            <div class="col l8 offset-l1 s12">
+                <h3 class="white-text">Anthony BOUILLON</h3>
+                <p class="grey-text text-lighten-4">Haut de france; Le Plessis-Brion, 60150; 06-49-70-52-50;</p>
+                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-linkedin"></i></a>
+                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter"></i></a>
+                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
-            <div class="col l4 offset-l2 s12 social-networks">
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-linkedin"></i> Linkedin</a><br/>
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter"></i> Twitter</a><br/>
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+            <div class="col l2 offset-l1 s12 footerVisit">
+                <h3 class="white-text">Visite</h3>
+                <p>La page a était visité 12 fois<br/>Il y a 1 utilisateur en ligne</p>
             </div>
         </div>
     </div>

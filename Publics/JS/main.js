@@ -1,7 +1,7 @@
 var elem = document.querySelector('.sidenav');
 var instance = M.Sidenav.init(elem);
 
-var letexte2 = 'Après avoir cliqué sur "envoyez", je recevrez un e-mail de votre part, et je vous répondrez dès que je l\'aurais lu !';
+var letexte2 = 'Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum, in iuvenem erectus et virum ex omni plaga quam orbis ambit inmensus, reportavit laureas et triumphos, iamque vergens in senium et nomine solo aliquotiens vincens ad tranquilliora vitae discessit.';
 var letexte = "Informations complémentaires";
 var cmpt = 0;
 var cmpt2 = 0;

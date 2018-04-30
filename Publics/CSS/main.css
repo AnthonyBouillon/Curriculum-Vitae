@@ -79,7 +79,40 @@ button {
 }
 
 .fa-github {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     font-size: 30px;
+}
+.contact-block{
+    border: 5px solid #ee6e73;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    background: beige;
+    margin-top: 1%;
+    height: 568px;
+}
+aside{
+    border: 5px solid black;
+}
+.titleStyle {
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 8%;
+    font-size: 40px;
+}
+.bold{
+    font-weight: bold;
+}
+::-moz-placeholder{
+    color: black;
+}
+.label{
+    color: black!important;
+    font-size: 20px!important;
+}
+#body{
+   background-image: url(http://www.geomarketing.com/wp-content/uploads/2015/05/BG-email-marketing.jpg); 
+}
+.footerVisit{
+    border: 2px solid black;
 }
