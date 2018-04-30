@@ -15,7 +15,7 @@
         </header>
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img class="responsive-img" src="http://eric.univ-lyon2.fr/~rabdesselam/fr/CV/MyCV.gif"></a>
+                <a href="#!" class="brand-logo"><img class="responsive-img" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="../index.php">Accueil</a></li>
@@ -23,15 +23,29 @@
                     <li><a href="badges.html">Formations</a></li>
                     <li><a href="badges.html">Expériences</a></li>
                     <li><a href="collapsible.html">Projets</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Plus <i class="fa fa-caret-down"></i></a></li>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!">CV au format PDF</a></li>
+                        <li><a href="#!">Certificat d'openclassroom</a></li>
+                    </ul>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <ul class="sidenav" id="mobile-demo">
-                <li><a href="sass.html">Accueil</a></li>
-                <li><a href="badges.html">Compétences</a></li>
-                <li><a href="badges.html">Formations</a></li>
-                <li><a href="badges.html">Expériences</a></li>
-                <li><a href="collapsible.html">Projet</a></li>
-                <li><a href="mobile.html">Contact</a></li>
+                 <li><a href="../index.php">Accueil</a></li>
+                    <li><a href="badges.html">Compétences</a></li>
+                    <li><a href="badges.html">Formations</a></li>
+                    <li><a href="badges.html">Expériences</a></li>
+                    <li><a href="collapsible.html">Projets</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Plus <i class="fa fa-caret-down"></i></a></li>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!">CV au format PDF</a></li>
+                        <li><a href="#!">Certificat d'openclassroom</a></li>
+                    </ul>
+                    <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
