@@ -34,19 +34,159 @@ function typess() {
 setTimeout(typess, 2500);
 
 /* Formulaire de contact */
+function validate_Form() {
+    var expressionReguliere = /^(([^<>()[]\.,;:s@]+(.[^<>()[]\.,;:s@]+)*)|(.+))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
 
-// Validation d'un champ
-//function validate_name() {
-//    input = document.getElementById('name');
-//    text = document.getElementById('text_name');
-//    if (input.value.length === 0) {
-//        text.innerHTML = 'Veuillez remplir ce champ';
-//        text.style.color = 'orange';
-//    } else if (input.value.length < 1 || input.value.length > 50) {
-//        text.innerHTML = 'Veuillez écrire un nom de famille valide';
-//        text.style.color = 'red';
-//    } else {
-//        text.innerHTML = 'Correct';
-//        text.style.color = 'green';
-//    }
-//}
+    var name = document.getElementById('name');
+    var first_name = document.getElementById('first_name');
+    var mail = document.getElementById('mail');
+    var subject = document.getElementById('subject');
+    var text = document.getElementById('text');
+
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+
+    error[0] = document.getElementById('error_name');
+    error[1] = document.getElementById('error_first_name');
+    error[2] = document.getElementById('error_mail');
+    error[3] = document.getElementById('error_subject');
+    error[4] = document.getElementById('error_message');
+
+    success[0] = document.getElementById('error_name');
+    success[1] = document.getElementById('error_first_name');
+    success[2] = document.getElementById('error_mail');
+    success[3] = document.getElementById('error_subject');
+    success[4] = document.getElementById('error_message');
+
+    if (name.value === '') {
+        error[0].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[0].style.color = 'red';
+    } else {
+        success[0].innerHTML = 'Correct';
+        success[0].style.color = 'green';
+    }
+
+    if (first_name.value === '') {
+        error[1].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[1].style.color = 'red';
+    } else {
+        success[1].innerHTML = 'Correct';
+        success[1].style.color = 'green';
+    }
+
+    if (mail.value != '') {
+        if (expressionReguliere.test(mail.value)) {
+            success[2].innerHTML = 'MAIL VALIDE';
+            success[2].style.color = 'green';
+        } else {
+            error[2].innerHTML = 'MAIL INVALIDE';
+            error[2].style.color = 'red';
+        }
+    } else {
+        error[2].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[2].style.color = 'red';
+    }
+
+    if (subject.value === '') {
+        error[3].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[3].style.color = 'red';
+    } else {
+        success[3].innerHTML = 'Correct';
+        success[3].style.color = 'green';
+    }
+
+    if (text.value === '') {
+        error[4].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[4].style.color = 'red';
+    } else {
+        success[4].innerHTML = 'Correct';
+        success[4].style.color = 'green';
+    }
+    if (name.value != '' && first_name.value != '' && mail.value != '' && subject.value != '' && text.value != '' && expressionReguliere.test(mail.value)) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+/* onblur */
+function form_name() {
+    var name = document.getElementById('name');
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+    success[0] = document.getElementById('error_name');
+    error[0] = document.getElementById('error_name');
+    if (name.value === '') {
+        error[0].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[0].style.color = 'red';
+    } else {
+        success[0].innerHTML = 'Correct';
+        success[0].style.color = 'green';
+    }
+}
+
+function form_first_name() {
+    var first_name = document.getElementById('first_name');
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+    success[1] = document.getElementById('error_first_name');
+    error[1] = document.getElementById('error_first_name');
+    if (first_name.value === '') {
+        error[1].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[1].style.color = 'red';
+    } else {
+        success[1].innerHTML = 'Correct';
+        success[1].style.color = 'green';
+    }
+}
+
+function form_mail() {
+    var expressionReguliere = /^(([^<>()[]\.,;:s@]+(.[^<>()[]\.,;:s@]+)*)|(.+))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
+    var mail = document.getElementById('mail');
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+    success[2] = document.getElementById('error_mail');
+    error[2] = document.getElementById('error_mail');
+    if (mail.value != '') {
+        if (expressionReguliere.test(mail.value)) {
+            success[2].innerHTML = 'MAIL VALIDE';
+            success[2].style.color = 'green';
+        } else {
+            error[2].innerHTML = 'MAIL INVALIDE';
+            error[2].style.color = 'red';
+        }
+    } else {
+        error[2].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[2].style.color = 'red';
+    }
+}
+
+function form_subject() {
+    var subject = document.getElementById('subject');
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+    success[3] = document.getElementById('error_subject');
+    error[3] = document.getElementById('error_subject');
+    if (subject.value === '') {
+        error[3].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[3].style.color = 'red';
+    } else {
+        success[3].innerHTML = 'Correct';
+        success[3].style.color = 'green';
+    }
+}
+
+function form_text() {
+    var text = document.getElementById('text');
+    var error = new Array('0', '1', '2', '3', '4');
+    var success = new Array('0', '1', '2', '3', '4');
+    success[4] = document.getElementById('error_message');
+    error[4] = document.getElementById('error_message');
+    if (text.value === '') {
+        error[4].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[4].style.color = 'red';
+    } else {
+        success[4].innerHTML = 'Correct';
+        success[4].style.color = 'green';
+    }
+}

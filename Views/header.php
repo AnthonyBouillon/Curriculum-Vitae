@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contactez-moi</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
-        <link href="../Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <link href="../Publics/CSS/main.css" rel="stylesheet" />
+        <link href="Publics/CSS/main.css" rel="stylesheet" />
     </head>
     <body id="<?= $body ?>">
         <header>
@@ -15,10 +15,10 @@
         </header>
         <nav>
             <div class="nav-wrapper">
-                <a href="../index.php" class="brand-logo"><img class="responsive-img" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg"></a>
+                <a href="index.php" class="brand-logo"><img class="responsive-img" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="../index.php">Accueil</a></li>
+                    <li><a href="index.php">Accueil</a></li>
                     <li><a href="">Compétences</a></li>
                     <li><a href="">Formations</a></li>
                     <li><a href="">Expériences</a></li>
@@ -30,7 +30,7 @@
                         <li><a href="">CV au format PDF</a></li>
                         <li><a href="">Certificat d'openclassroom</a></li>
                     </ul>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="Contact">Contact</a></li>
                 </ul>
             </div>
             <ul class="sidenav" id="mobile-demo">
@@ -46,7 +46,7 @@
                     <li><a href="">CV au format PDF</a></li>
                     <li><a href="">Certificat d'openclassroom</a></li>
                 </ul>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>
  

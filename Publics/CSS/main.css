@@ -71,14 +71,16 @@ h1 {
     margin-top: 3%;
 }
 
-.fa-twitter {
-    color: #1dcaff;
-    font-size: 30px;
-}
-
 .fa-linkedin {
     color: #0077B5;
     font-size: 30px;
+    margin-right: 2%;
+}
+
+.fa-twitter {
+    color: #1dcaff;
+    font-size: 30px;
+    margin-right: 2%;
 }
 
 .fa-github {
@@ -96,7 +98,11 @@ h1 {
     border-radius: 15px;
     background: beige;
     margin-top: 1%;
-    height: 568px;
+    min-height: 568px;
+}
+
+.bloc-info {
+    height: 587px;
 }
 
 aside {
@@ -115,6 +121,10 @@ aside {
 
 .bold {
     font-weight: bold;
+}
+
+.text-red {
+    color: red;
 }
 
 
