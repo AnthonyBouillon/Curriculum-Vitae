@@ -10,7 +10,7 @@ var cmpt = 0;
 var cmpt2 = 0;
 
 function typewriter() {
-    lelien = document.getElementById('lien');
+    lelien = document.getElementById('title_contact');
     if (cmpt < letexte.length) {
         courant = lelien.innerHTML.substring(0, lelien.innerHTML.length - 1);
         courant += letexte.charAt(cmpt) + " ";
@@ -22,7 +22,7 @@ function typewriter() {
 typewriter();
 
 function typess() {
-    lelien2 = document.getElementById('lien2');
+    lelien2 = document.getElementById('para_contact');
     if (cmpt2 < letexte2.length) {
         courant5 = lelien2.innerHTML.substring(0, lelien2.innerHTML.length - 1);
         courant5 += letexte2.charAt(cmpt2) + " ";
@@ -50,5 +50,3 @@ setTimeout(typess, 2500);
 //        text.style.color = 'green';
 //    }
 //}
-
-
