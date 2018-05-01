@@ -15,9 +15,9 @@
         </header>
         <nav>
             <div class="nav-wrapper">
-                <a href="index.php" class="brand-logo"><img class="responsive-img" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
+                <a href="index.php" class="brand-logo"><img class="responsive-img headshot-1" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
+                <ul class="right hide-on-med-and-down bold">
                     <li><a href="index.php">Accueil</a></li>
                     <li><a href="">Compétences</a></li>
                     <li><a href="">Formations</a></li>

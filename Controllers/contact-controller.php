@@ -14,35 +14,35 @@ if(isset($_POST['submit_mail'])){
         $error['name'] = 'Veuillez saisir votre nom';
     }else{
         if(!filter_var($_POST['name'], FILTER_SANITIZE_STRING)){
-            $error['name'] = 'Veuillez saisir un nom valide';
+            $error['name_regex'] = 'Veuillez saisir un nom valide';
         }
     }
     if(empty($_POST['first_name'])){
         $error['first_name'] = 'Veuillez saisir votre prénom';
     }else{
         if(!filter_var($_POST['first_name'], FILTER_SANITIZE_STRING)){
-            $error['first_name'] = 'Veuillez saisir un prénom valide';
+            $error['first_name_regex'] = 'Veuillez saisir un prénom valide';
         }
     }
     if(empty($_POST['mail'])){
         $error['mail'] = 'Veuillez saisir votre mail';
     }else{
         if(!filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)){
-            $error['mail'] = 'Veuillez saisir une adresse e-mail valide';
+            $error['mail_regex'] = 'Veuillez saisir une adresse e-mail valide';
         }
     }
     if(empty($_POST['subject'])){
         $error['subject'] = 'Veuillez saisir un sujet';
     }else{
         if(!filter_var($_POST['subject'], FILTER_SANITIZE_STRING)){
-            $error['subject'] = 'Veuillez saisir un nom de sujet valide';
+            $error['subject_regex'] = 'Veuillez saisir un nom de sujet valide';
         } 
     }
     if(empty($_POST['text'])){
         $error['text'] = 'Veuillez saisir votre message';
     }else{
         if(!filter_var($_POST['text'], FILTER_SANITIZE_STRING)){
-            $error['text'] = 'Veuillez saisir un message valide';
+            $error['text_regex'] = 'Veuillez saisir un message valide';
         } 
     }
     if(count($error) === 0){
@@ -52,7 +52,9 @@ if(isset($_POST['submit_mail'])){
         $headers = $_POST['mail'];
 
         if(mail($to, $subject, $message, $headers)){
-            $success['send_mail'] = 'Votre mail a était envoyez avec succès';
+            $success['send_mail'] = 'Votre mail a était envoyez avec succès !';
+        }else{
+            $error['fail_mail'] = 'Malheureusement le mail n\'a pas put être envoyé';
         }
     }
 }

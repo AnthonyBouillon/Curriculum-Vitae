@@ -76,10 +76,10 @@ function validate_Form() {
 
     if (mail.value != '') {
         if (expressionReguliere.test(mail.value)) {
-            success[2].innerHTML = 'MAIL VALIDE';
+            success[2].innerHTML = 'Mail valide';
             success[2].style.color = 'green';
         } else {
-            error[2].innerHTML = 'MAIL INVALIDE';
+            error[2].innerHTML = 'Mail invalide';
             error[2].style.color = 'red';
         }
     } else {
@@ -149,10 +149,10 @@ function form_mail() {
     error[2] = document.getElementById('error_mail');
     if (mail.value != '') {
         if (expressionReguliere.test(mail.value)) {
-            success[2].innerHTML = 'MAIL VALIDE';
+            success[2].innerHTML = 'Mail valide';
             success[2].style.color = 'green';
         } else {
-            error[2].innerHTML = 'MAIL INVALIDE';
+            error[2].innerHTML = 'Mail invalide';
             error[2].style.color = 'red';
         }
     } else {

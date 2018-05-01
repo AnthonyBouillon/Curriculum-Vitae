@@ -47,7 +47,7 @@ p {
 
 img {
     width: 100px;
-    border: 5px solid #ee6e73;
+    border: 5px solid #000435;
     margin-left: -5px!important;
 }
 
@@ -60,8 +60,17 @@ header {
 }
 
 h1 {
+    font-size: 45px;
+    color: #000C5A;
     margin-top: 0;
     margin-bottom: 1%;
+}
+
+
+/* Menu */
+
+nav {
+    background-color: #0077B5;
 }
 
 
@@ -72,13 +81,13 @@ h1 {
 }
 
 .fa-linkedin {
-    color: #0077B5;
+    color: ;
     font-size: 30px;
     margin-right: 2%;
 }
 
 .fa-twitter {
-    color: #1dcaff;
+    color: white;
     font-size: 30px;
     margin-right: 2%;
 }
@@ -93,7 +102,7 @@ h1 {
 /* Les deux blocs de la page contact */
 
 .contact-block {
-    border: 5px solid #ee6e73;
+    border: 5px solid #000435;
     box-shadow: 5px 5px 5px black;
     border-radius: 15px;
     background: beige;
@@ -102,7 +111,7 @@ h1 {
 }
 
 .bloc-info {
-    height: 587px;
+    height: 568px;
 }
 
 aside {
@@ -115,7 +124,7 @@ aside {
 .titleStyle {
     margin: 0;
     padding: 20px;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     font-size: 36px;
 }
 
@@ -158,6 +167,7 @@ footer {
     width: 100%;
     height: 150px;
     display: table-row;
+    background-color: #0077B5!important;
 }
 
 .h3footer {
