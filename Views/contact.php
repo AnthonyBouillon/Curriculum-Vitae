@@ -1,5 +1,8 @@
 <?php
+include_once '../Models/database.php';
+include_once '../Models/visitors.php';
 include_once '../Controllers/contact-controller.php';
+include_once '../Controllers/visitors-controller.php';
 $body = 'body_contact';
 include_once 'header.php';
 ?>
