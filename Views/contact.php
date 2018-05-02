@@ -5,8 +5,8 @@ include_once 'header.php';
 ?>
 <section> 
     <div class="row">
-        <form method="POST" class="col s12 m6 l6 offset-l1 xl5 push-xl1 contact-block" onsubmit="return validate_Form()">
-            <h2 class="center-align titleStyle">Formulaire de contact</h2>
+        <form method="POST" class="col s12 m5 l6 offset-l1 xl5 push-xl1 contact-block" onsubmit="return validate_Form()">
+            <h2 class="center-align titleStyle title_form_contact">Formulaire de contact</h2>
             <?= !empty($success['send_mail']) ? '<div class="card-panel teal lighten-2 center-align">' . $success['send_mail'] . '</div>' : '' ?>
             <?= !empty($error['fail_mail']) ? '<div class="card-panel orange lighten-2 center-align">' . $error['fail_mail'] . '</div>' : '' ?>
 
@@ -65,8 +65,8 @@ include_once 'header.php';
                 </div>
             </div>
         </form>
-        <aside class="col s12 m6 l4 offset-l1 xl4 push-xl2 contact-block bloc-info">
-            <h2 class="titleStyle" id="title_contact"></h2>
+        <aside class="col s12 m4 offset-m1 l4 offset-l1 xl4 push-xl2 contact-block bloc-info">
+            <h2 class="titleStyle title_info_more" id="title_contact"></h2>
             <p id="para_contact"></p>
         </aside>
     </div>

@@ -11,7 +11,7 @@
     </head>
     <body id="<?= $body ?>">
         <header>
-            <h1>Curriculum Vitae | Développeur web junior | Full-stack</h1>
+            <h1>Curriculum Vitae &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Développeur web junior &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Full-stack</h1>
         </header>
         <nav>
             <div class="nav-wrapper">

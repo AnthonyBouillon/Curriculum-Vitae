@@ -21,7 +21,6 @@ body {
 
 header,
 nav,
-section,
 aside,
 footer {
     padding: 5px;
@@ -40,6 +39,10 @@ h5 {
 
 p {
     font-family: 'Arial', Courier, monospace;
+}
+
+section {
+    margin-top: 0.7%;
 }
 
 
@@ -66,11 +69,23 @@ h1 {
     margin-bottom: 1%;
 }
 
+.title_form_contact {
+    letter-spacing: 2px;
+}
+
 
 /* Menu */
 
+.dropdown-content {
+    width: 170px !important;
+}
+
 nav {
     background-color: #0077B5;
+}
+
+nav ul li {
+    letter-spacing: 1px;
 }
 
 
@@ -81,13 +96,14 @@ nav {
 }
 
 .fa-linkedin {
-    color: ;
+    color: #0077B5;
     font-size: 30px;
     margin-right: 2%;
+    margin-left: 5%;
 }
 
 .fa-twitter {
-    color: white;
+    color: #1dcaff;
     font-size: 30px;
     margin-right: 2%;
 }
@@ -107,11 +123,10 @@ nav {
     border-radius: 15px;
     background: beige;
     margin-top: 1%;
-    min-height: 568px;
 }
 
 .bloc-info {
-    height: 568px;
+    height: 565px;
 }
 
 aside {
@@ -153,13 +168,6 @@ button {
 }
 
 
-/* Menu */
-
-.dropdown-content {
-    width: 150px!important;
-}
-
-
 /* Footer */
 
 footer {
@@ -168,6 +176,10 @@ footer {
     height: 150px;
     display: table-row;
     background-color: #0077B5!important;
+}
+
+.bloc_social_icon {
+    background-color: beige;
 }
 
 .h3footer {
@@ -243,6 +255,12 @@ footer {
 @media screen and (max-width: 992px) {
     img {
         display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 790px) {
+    .title_info_more {
+        font-size: 17px!important;
     }
 }
 
