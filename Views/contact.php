@@ -2,7 +2,7 @@
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
 include_once '../Controllers/contact-controller.php';
-include_once '../Controllers/visitors-controller.php';
+$title = 'Contactez-moi';
 $body = 'body_contact';
 include_once 'header.php';
 ?>
@@ -35,7 +35,7 @@ include_once 'header.php';
                 <div class="input-field col s12 xl6">
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="email" placeholder="Ecrivez votre adresse e-mail" id="mail" name="mail" onblur="form_mail()" />
-                    <label for="email" class="bold label">E-mail <span class="text-red">*</span></label>
+                    <label for="mail" class="bold label">E-mail <span class="text-red">*</span></label>
                     <span id="error_mail"></span>
                     <span class="text-red"><?= !empty($error['mail']) ? $error['mail'] : '' ?></span>
                     <span class="text-red"><?= !empty($error['mail_regex']) ? $error['mail_regex'] : '' ?></span>

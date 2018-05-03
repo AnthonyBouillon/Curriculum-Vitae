@@ -114,6 +114,11 @@ nav ul li {
     font-size: 30px;
 }
 
+.fa-times {
+    font-size: 20px;
+    color: red;
+}
+
 
 /* Les deux blocs de la page contact */
 
@@ -127,9 +132,6 @@ nav ul li {
 
 .bloc-info {
     height: 565px;
-}
-
-aside {
     border: 5px solid black;
 }
 
@@ -149,6 +151,10 @@ aside {
 
 .text-red {
     color: red;
+}
+
+.text-align {
+    text-align: center;
 }
 
 
@@ -274,4 +280,61 @@ footer {
     h3 {
         font-size: 25px;
     }
+}
+
+
+/* Page projet / Tableau */
+table.spreadsheet {
+    border-collapse: collapse;
+}
+table.spreadsheet caption {
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    padding: 0.8em;
+    caption-side: bottom;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+table.spreadsheet thead th:nth-child(2n+1) {
+    background-color: #660000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-left: 1px solid white;
+}
+table.spreadsheet thead th:nth-child(2n+2) {
+    background-color: #990033;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-left: 1px solid white;
+}
+/* Couleur horizontal des lignes */
+table.spreadsheet tbody tr:nth-child(2n+1) {
+    background-color: #F5F5F5;
+}
+
+table.spreadsheet tbody tr:nth-child(2n+1) {
+    background-color: #DCDCDC;
+}
+/* Couleur horizontal de la colonne # */
+table.spreadsheet tbody tr:nth-child(odd) th[scope="row"] {
+    background-color: #A9A9A9;
+}
+
+table.spreadsheet tbody tr:nth-child(even) th[scope="row"] {
+    background-color: #D3D3D3;
+}
+table.spreadsheet tr,
+td {
+    padding: 1.5em;
+    font-weight: normal;
+    border: 1px solid white;
+}
+/* horizontale hover */
+table.spreadsheet tbody tr:hover {
+    background-color: #FFCCCC;
+    color: #000000;
 }
