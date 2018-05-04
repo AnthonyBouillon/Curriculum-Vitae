@@ -284,42 +284,57 @@ footer {
 
 
 /* Page projet / Tableau */
+
+table {
+    margin-bottom: 5%;
+}
+
 table.spreadsheet {
     border-collapse: collapse;
 }
+
 table.spreadsheet caption {
     font-size: larger;
-    background-color: blue;
-    color: white;
+    font-weight: bold;
+    background-color: teal;
+    color: #000435;
     padding: 0.8em;
     caption-side: bottom;
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
+
 table.spreadsheet thead th:nth-child(2n+1) {
-    background-color: #660000;
+    background-color: #000435;
     color: white;
     text-align: center;
     padding: 1em;
     border-left: 1px solid white;
-}
-table.spreadsheet thead th:nth-child(2n+2) {
-    background-color: #990033;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    border-left: 1px solid white;
-}
-/* Couleur horizontal des lignes */
-table.spreadsheet tbody tr:nth-child(2n+1) {
-    background-color: #F5F5F5;
 }
 
-table.spreadsheet tbody tr:nth-child(2n+1) {
-    background-color: #DCDCDC;
+table.spreadsheet thead th:nth-child(2n+2) {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-left: 1px solid white;
 }
+
+
+/* Couleur horizontal des lignes */
+
+table.spreadsheet tbody tr:nth-child(2n+1) {
+    background-color: beige;
+}
+
+table.spreadsheet tbody tr:nth-child(2n+2) {
+    background-color: white;
+}
+
+
 /* Couleur horizontal de la colonne # */
+
 table.spreadsheet tbody tr:nth-child(odd) th[scope="row"] {
     background-color: #A9A9A9;
 }
@@ -327,14 +342,50 @@ table.spreadsheet tbody tr:nth-child(odd) th[scope="row"] {
 table.spreadsheet tbody tr:nth-child(even) th[scope="row"] {
     background-color: #D3D3D3;
 }
+
 table.spreadsheet tr,
 td {
     padding: 1.5em;
     font-weight: normal;
     border: 1px solid white;
 }
+
+
 /* horizontale hover */
+
 table.spreadsheet tbody tr:hover {
     background-color: #FFCCCC;
     color: #000000;
+}
+
+#title_project {
+    margin-bottom: 5%;
+    color: white;
+    background-color: ;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#body_project {
+    background-image: url(https://i.pinimg.com/originals/56/50/07/565007c50ecd9e2a006e0536251371a4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.first_td {
+    width: 170px;
+}
+
+.second_td {
+    width: 200px;
+}
+
+.fourth_td {
+    width: 220px;
 }
