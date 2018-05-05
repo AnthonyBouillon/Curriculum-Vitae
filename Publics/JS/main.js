@@ -1,37 +1,36 @@
+/* Heure */
+var id_hour = document.getElementById('hour');
+
+function actualiser() {
+    /* On instancie notre objet Date qui nous permet de récupéré grâce aux fonction de l'objet, l'heure complète ou la date */
+    var date = new Date();
+    /* On récupère l'heure */
+    var hour = date.getHours();
+    /* On récupère les minutes, mais si les minutes sont inférieur à 10, on ajoute un 0 devant (14h5min = 14h05min) */
+    var minutes = ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
+    /* Pareil pour les secondes */
+    var seconds = ':' + (date.getSeconds() < 10 ? '0' : '') + date.getSeconds();
+    id_hour.innerHTML = hour + minutes + seconds;
+}
+setInterval(actualiser, 0);
+
+/* Date */
+var id_date = document.getElementById('date');
+var now = new Date();
+var simple_day = now.getDate();
+var condition = now.getDate() < 10 ? '0' : '';
+var day = condition + simple_day;
+var simple_month = now.getMonth() + 1;
+var condition = now.getMonth() < 10 ? '0' : '';
+var month = condition + simple_month;
+var year = now.getFullYear();
+id_date.innerHTML = day + "/" + month + "/" + year + " à ";
+
+/* Menu, Materialize */
 var elem = document.querySelector('.sidenav');
 var instance = M.Sidenav.init(elem);
-
 var elem = document.querySelector('.dropdown-trigger');
 var instance = M.Dropdown.init(elem);
-
-var letexte2 = 'Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum, in iuvenem erectus et virum ex omni plaga quam orbis ambit inmensus, reportavit laureas et triumphos, iamque vergens in senium et nomine solo aliquotiens vincens ad tranquilliora vitae discessit.';
-var letexte = "Informations complémentaires";
-var cmpt = 0;
-var cmpt2 = 0;
-
-function typewriter() {
-    lelien = document.getElementById('title_contact');
-    if (cmpt < letexte.length) {
-        courant = lelien.innerHTML.substring(0, lelien.innerHTML.length - 1);
-        courant += letexte.charAt(cmpt) + " ";
-        lelien.innerHTML = courant;
-    }
-    cmpt++;
-    setTimeout("typewriter()", 80);
-}
-typewriter();
-
-function typess() {
-    lelien2 = document.getElementById('para_contact');
-    if (cmpt2 < letexte2.length) {
-        courant5 = lelien2.innerHTML.substring(0, lelien2.innerHTML.length - 1);
-        courant5 += letexte2.charAt(cmpt2) + " ";
-        lelien2.innerHTML = courant5;
-    }
-    cmpt2++;
-    setTimeout("typess()", 30);
-}
-setTimeout(typess, 2500);
 
 /* Formulaire de contact */
 function validate_Form() {
@@ -109,7 +108,7 @@ function validate_Form() {
     }
 
 }
-/* onblur */
+/* onblur sur formulaire */
 function form_name() {
     var name = document.getElementById('name');
     var error = new Array('0', '1', '2', '3', '4');

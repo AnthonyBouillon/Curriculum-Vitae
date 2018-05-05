@@ -368,7 +368,7 @@ table.spreadsheet tbody tr:hover {
 }
 
 #body_project {
-    background-image: url(https://i.pinimg.com/originals/56/50/07/565007c50ecd9e2a006e0536251371a4.jpg);
+    background-image: url("../IMG/background-project.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

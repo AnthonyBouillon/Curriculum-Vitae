@@ -12,23 +12,22 @@ include_once 'header.php';
             <h2 class="center-align titleStyle title_form_contact">Formulaire de contact</h2>
             <?= !empty($success['send_mail']) ? '<div class="card-panel teal lighten-2 center-align">' . $success['send_mail'] . '</div>' : '' ?>
             <?= !empty($error['fail_mail']) ? '<div class="card-panel orange lighten-2 center-align">' . $error['fail_mail'] . '</div>' : '' ?>
-
             <div class="row">
                 <div class="input-field col s12 xl6">
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre nom" id="name" name="name" onblur="form_name()" />
                     <label for="name" class="bold label">Nom <span class="text-red">*</span></label>
                     <span id="error_name"></span>
-                    <span class="text-red"><?= !empty($error['name']) ? $error['name'] : '' ?></span>
-                    <span class="text-red"><?= !empty($error['name_regex']) ? $error['name_regex'] : '' ?></span>
+                    <span class="text-red"><?= $error['name'] ?? '' ?></span>
+                    <span class="text-red"><?= $error['name_regex'] ?? '' ?></span>
                 </div>            
                 <div class="input-field col s12 xl6">
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre prénom" id="first_name" name="first_name" onblur="form_first_name()" />
                     <label for="first_name" class="bold label">Prénom <span class="text-red">*</span></label>
                     <span id="error_first_name"></span>
-                    <span class="text-red"><?= !empty($error['first_name']) ? $error['first_name'] : '' ?></span>
-                    <span class="text-red"><?= !empty($error['first_name_regex']) ? $error['first_name_regex'] : '' ?></span>
+                    <span class="text-red"><?= $error['first_name'] ?? '' ?></span>
+                    <span class="text-red"><?= $error['first_name_regex'] ?? '' ?></span>
                 </div>
             </div>
             <div class="row">
@@ -37,16 +36,16 @@ include_once 'header.php';
                     <input type="email" placeholder="Ecrivez votre adresse e-mail" id="mail" name="mail" onblur="form_mail()" />
                     <label for="mail" class="bold label">E-mail <span class="text-red">*</span></label>
                     <span id="error_mail"></span>
-                    <span class="text-red"><?= !empty($error['mail']) ? $error['mail'] : '' ?></span>
-                    <span class="text-red"><?= !empty($error['mail_regex']) ? $error['mail_regex'] : '' ?></span>
+                    <span class="text-red"><?= $error['mail'] ?? '' ?></span>
+                    <span class="text-red"><?= $error['mail_regex'] ?? '' ?></span>
                 </div>    
                 <div class="input-field col s12 xl6">
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez la raison de votre message" id="subject" name="subject" onblur="form_subject()" />
                     <label for="subject" class="bold label">Sujet <span class="text-red">*</span></label>
                     <span id="error_subject"></span>
-                    <span class="text-red"><?= !empty($error['subject']) ? $error['subject'] : '' ?></span>
-                    <span class="text-red"><?= !empty($error['subject_regex']) ? $error['subject_regex'] : '' ?></span>
+                    <span class="text-red"><?= $error['subject'] ?? '' ?></span>
+                    <span class="text-red"><?= $error['subject_regex'] ?? '' ?></span>
                 </div>
             </div>
             <div class="row">
@@ -55,8 +54,8 @@ include_once 'header.php';
                     <textarea placeholder="Ecrivez votre message" class="materialize-textarea" id="text" name="text" onblur="form_text()"></textarea>
                     <label for="text" class="bold label">Message <span class="text-red">*</span></label>
                     <span id="error_message"></span>
-                    <span class="text-red"><?= !empty($error['text']) ? $error['text'] : '' ?></span>
-                    <span class="text-red"><?= !empty($error['text_regex']) ? $error['text_regex'] : '' ?></span>
+                    <span class="text-red"><?= $error['text'] ?? '' ?></span>
+                    <span class="text-red"><?= $error['text_regex'] ?? '' ?></span>
                 </div>
             </div>
             <p><span class="text-red">*</span>  Champs obligatoires</p>

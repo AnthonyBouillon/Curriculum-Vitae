@@ -9,7 +9,7 @@ include_once 'header.php';
 <div class="container">
     <h2 class="text-align" id="title_project">Liste de mes projets personnel</h2>
     <table class="spreadsheet">
-        <caption>A ce jour le 04/05/2018 à 14h14min45s : 3 projets ont était réalisés</caption>
+        <caption>A ce jour le <span id="date"></span><span id="hour"></span> : 3 projets ont était réalisés</caption> 
         <thead>
             <tr>
                 <th class="text-align">#</th>
@@ -57,34 +57,5 @@ include_once 'header.php';
             </tr>
         </tbody>
     </table>
-
-<div id="div_horloge"></div>
- 
-
-
-
 </div>
-<script type="text/javascript">
-window.onload=function() {
-horloge('div_horloge');
-};
-function horloge(el) {
-    if(typeof el=="string") {
-        el = document.getElementById(el);
-    }
-    function actualiser() {
-        var date = new Date();
-        var str = date.getHours();
-        str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();
-        str += ':'+(date.getSeconds()<10?'0':'')+date.getSeconds();
-        el.innerHTML = str;
-    }
-    setInterval(actualiser, 0);
-}
-var maintenant=new Date();
-var jour=maintenant.getDate();
-var mois=maintenant.getMonth()+1;
-var an=maintenant.getFullYear();
-document.write("Nous sommes le ",jour,"/",mois,"/",an,".");
-</script>
 <?php include_once 'footer.php'; ?>
