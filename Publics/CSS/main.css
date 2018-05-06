@@ -48,7 +48,7 @@ section {
 
 /* Photo */
 
-img {
+.img-profile {
     width: 100px;
     border: 5px solid #000435;
     margin-left: -5px!important;
@@ -191,7 +191,17 @@ footer {
 .h3footer {
     padding-top: 0px!important;
     margin-top: 0px!important;
+    font-size: 30px;
+    text-align: left;
 }
+
+.h3_info_footer {
+    padding-top: 0px!important;
+    margin-top: 0px!important;
+    font-size: 30px;
+    text-align: center;
+}
+
 
 .pfooter {
     padding-left: 5px;
@@ -361,7 +371,6 @@ table.spreadsheet tbody tr:hover {
 #title_project {
     margin-bottom: 5%;
     color: white;
-    background-color: ;
     padding: 5px;
     border-radius: 5px;
     opacity: 1;
@@ -389,3 +398,15 @@ h3 {
 .fourth_td {
     width: 220px;
 }
+.card-content{
+    height: 80px;
+}
+.h2_page-certificate{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+#body_openclassroom-certificate {
+    background-image: url("http://www.pptbackgrounds.org/uploads/hardworking-student-powerpoint-templates.JPG");
+    background-repeat: no-repeat;
+}
+

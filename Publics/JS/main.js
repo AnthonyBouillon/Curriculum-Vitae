@@ -1,3 +1,8 @@
+/* Menu, Materialize */
+var elem = document.querySelector('.sidenav');
+var instance = M.Sidenav.init(elem);
+var elem = document.querySelector('.dropdown-trigger');
+var instance = M.Dropdown.init(elem);
 /* Heure */
 var id_hour = document.getElementById('hour');
 
@@ -26,11 +31,7 @@ var month = condition + simple_month;
 var year = now.getFullYear();
 id_date.innerHTML = day + "/" + month + "/" + year + " à ";
 
-/* Menu, Materialize */
-var elem = document.querySelector('.sidenav');
-var instance = M.Sidenav.init(elem);
-var elem = document.querySelector('.dropdown-trigger');
-var instance = M.Dropdown.init(elem);
+
 
 /* Formulaire de contact */
 function validate_Form() {

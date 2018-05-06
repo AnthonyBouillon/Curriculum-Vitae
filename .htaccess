@@ -2,3 +2,4 @@ Options +FollowSymlinks
 RewriteEngine On
 RewriteRule ^Contact$ Views/contact.php [L] 
 RewriteRule ^Liste-des-projets$ Views/project.php [L] 
+RewriteRule ^Certificats-d'openclassroom$ Views/openclassroom-certificate.php [L] 
