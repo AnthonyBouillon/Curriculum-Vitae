@@ -11,7 +11,7 @@ include_once 'header.php';
 
     <div class="row">
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://course.oc-static.com/courses/1946386/1946386_teaser_picture_1525521657.jpg">
@@ -25,7 +25,7 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://course.oc-static.com/courses/4057661/4057661_teaser_picture_1522250852.jpg">
@@ -39,7 +39,7 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://course.oc-static.com/courses/1603881/1603881_teaser_picture_1522246725.jpg">
@@ -53,7 +53,7 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://course.oc-static.com/courses/918836/918836_teaser_picture_1522246956.jpg">
@@ -67,7 +67,7 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/3013691/14460490348045_illu_decouverte%20des%20CMS.png">
@@ -81,7 +81,7 @@ include_once 'header.php';
             </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l6 xl3">
             <div class="card">
                 <div class="card-image">
                     <img src="https://static.oc-static.com/prod/courses/illustrations/illu_protegez-l-ensemble-de-vos-donnees-sur-votre-ordinateur.png">

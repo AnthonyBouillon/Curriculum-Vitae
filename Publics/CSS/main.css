@@ -202,7 +202,6 @@ footer {
     text-align: center;
 }
 
-
 .pfooter {
     padding-left: 5px;
     margin-top: 0;
@@ -306,7 +305,7 @@ table.spreadsheet {
 table.spreadsheet caption {
     font-size: larger;
     font-weight: bold;
-    background-color: teal;
+    background-color: aqua;
     color: #000435;
     padding: 0.8em;
     caption-side: bottom;
@@ -363,9 +362,10 @@ td {
 
 /* horizontale hover */
 
-table.spreadsheet tbody tr:hover {
-    background-color: #FFCCCC;
-    color: #000000;
+table.spreadsheet tbody tr:hover td {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
 }
 
 #title_project {
@@ -379,7 +379,6 @@ table.spreadsheet tbody tr:hover {
 #body_project {
     background-image: url("../IMG/background-project.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 h3 {
@@ -398,15 +397,27 @@ h3 {
 .fourth_td {
     width: 220px;
 }
-.card-content{
-    height: 80px;
+
+.fifth_td {
+    width: 150px;
+    text-align: center;
 }
-.h2_page-certificate{
+
+.h2_page-certificate {
     font-size: 40px;
     margin-bottom: 5%;
 }
+
+.text-left {
+    text-align: left;
+}
+
 #body_openclassroom-certificate {
     background-image: url("http://www.pptbackgrounds.org/uploads/hardworking-student-powerpoint-templates.JPG");
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.card-content {
+    height: 120px;
+}

@@ -190,3 +190,33 @@ function form_text() {
         success[4].style.color = 'green';
     }
 }
+/* onmouseover */
+function test1() {
+    document.getElementById('link_project_1').style.color = "#ffd8a6";
+}
+
+function test3() {
+    document.getElementById('link_project_2').style.color = "#ffd8a6";
+    document.getElementById('link_project_3').style.color = "#ffd8a6";
+}
+
+function test5() {
+    document.getElementById('link_project_4').style.color = "#ffd8a6";
+    document.getElementById('link_project_5').style.color = "#ffd8a6";
+}
+
+
+/* onmouseout */
+function test2() {
+    document.getElementById('link_project_1').style.color = "#039be5";
+}
+
+function test4() {
+    document.getElementById('link_project_2').style.color = "#039be5";
+    document.getElementById('link_project_3').style.color = "#039be5";
+}
+
+function test6() {
+    document.getElementById('link_project_4').style.color = "#039be5";
+    document.getElementById('link_project_5').style.color = "#039be5";
+}
