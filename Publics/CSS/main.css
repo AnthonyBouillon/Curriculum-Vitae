@@ -48,12 +48,6 @@ section {
 
 /* Photo */
 
-.img-profile {
-    width: 100px;
-    border: 5px solid #000435;
-    margin-left: -5px!important;
-}
-
 
 /* En-tête */
 
@@ -124,28 +118,8 @@ button {
 
 /* Footer */
 
-.headshot-1 {
-    border-radius: 15%;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=), linear-gradient(to top, #0fd850, #f9f047);
-}
-
-.headshot {
-    margin-top: 0.5%;
-    border: calc(8px + 0.2vw) solid transparent;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-    min-width: 320px;
-}
-
 
 /* Media queries */
-
-@media screen and (max-width: 1694px) {
-    h1 {
-        font-size: 40px;
-    }
-}
 
 @media screen and (max-width: 1200px) {
     h2,
@@ -160,30 +134,6 @@ button {
     }
 }
 
-@media screen and (max-width: 1080px) {
-    h1 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .headshot-1 {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .img_footer {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .img_footer {
-        display: block;
-    }
-}
-
 @media screen and (max-width: 992px) {
     img {
         display: none;
@@ -193,12 +143,6 @@ button {
 @media screen and (min-width: 600px) and (max-width: 790px) {
     .title_info_more {
         font-size: 17px!important;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    h1 {
-        font-size: 30px;
     }
 }
 
@@ -294,7 +238,7 @@ table.spreadsheet tbody tr:hover td {
 }
 
 #body_project {
-    background-image: url("../IMG/background-project.png");
+    background-image: url("../IMG/background/background-project.png");
     background-repeat: no-repeat;
 }
 
@@ -344,6 +288,24 @@ h1 {
     margin-bottom: 1%;
 }
 
+@media screen and (max-width: 1694px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
 
 /* ************************************* CSS du menu ************************************************************* */
 
@@ -370,65 +332,121 @@ footer {
     background-color: #0077B5 !important;
 }
 
-.bloc_social_icon {
-    background-color: beige;
-}
-
-.h3footer {
+#h3-name {
     padding-top: 0px !important;
     margin-top: 0px !important;
     font-size: 30px;
     text-align: left;
 }
 
-.h3_info_footer {
+#h3-info {
     padding-top: 0px !important;
     margin-top: 0px !important;
     font-size: 30px;
     text-align: center;
 }
 
-.pfooter {
+#para-counter {
     padding-left: 5px;
     margin-top: 0;
-}
-
-.social-networks {
-    margin-top: 3%;
+    color: white;
 }
 
 .fa-linkedin {
-    color: #0077B5;
+    color: white;
     font-size: 30px;
     margin-right: 2%;
-    margin-left: 5%;
+    padding: 5px;
+}
+
+.fa-linkedin:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 .fa-twitter {
-    color: #1dcaff;
+    color: white;
     font-size: 30px;
     margin-right: 2%;
+    padding: 5px;
+}
+
+.fa-twitter:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 .fa-github {
-    background: white;
-    color: black;
+    color: white;
     font-size: 30px;
+    padding: 5px;
+}
+
+.fa-github:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 .fa-times {
     font-size: 20px;
     color: red;
+    padding: 5px;
+}
+
+.fa-times:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    #img-display {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #img-display {
+        display: block;
+    }
 }
 
 
 /* ************************************* CSS de la page des certificats ****************************************** */
 
-.h2_page-certificate {
+#h2-certificate {
     font-size: 40px;
     margin-bottom: 5%;
 }
 
 .card-content {
     height: 120px;
+}
+
+
+/* ************************************* CSS classe en commum ***************************************************** */
+
+.headshot {
+    margin-top: 0.5%;
+    border: calc(8px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    min-width: 320px;
+}
+
+.img-profile {
+    width: 100px;
+    border: 5px solid #000435;
+    margin-left: -5px !important;
+}
+
+.headshot-1 {
+    border-radius: 15%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=), linear-gradient(to top, #0fd850, #f9f047);
+}
+
+@media screen and (max-width: 992px) {
+    .headshot-1 {
+        display: none;
+    }
 }

@@ -8,7 +8,7 @@ include_once 'header.php';
 ?>
 <div class="container">
 <!-- Titre de la page -->
-    <h2 class="text-align h2_page-certificate">Liste des certificats obtenus sur le site d'openclassroom</h2>
+    <h2 class="center-align" id="h2-certificate">Liste des certificats obtenus sur le site d'openclassroom</h2>
     <div class="row">
         <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
@@ -16,7 +16,7 @@ include_once 'header.php';
             <div class="card">
             <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-1.jpg">
+                    <img src="Publics/IMG/certificate/certificate-1.jpg" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -24,7 +24,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-1.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-1.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-2.jpg">
+                    <img src="Publics/IMG/certificate/certificate-2.jpg" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -42,7 +42,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-2.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-2.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-3.jpg">
+                    <img src="Publics/IMG/certificate/certificate-3.jpg" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -60,7 +60,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-3.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-3.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-4.jpg">
+                    <img src="Publics/IMG/certificate/certificate-4.jpg" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -78,7 +78,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-4.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-4.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-5.png">
+                    <img src="Publics/IMG/certificate/certificate-5.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -96,7 +96,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-5.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-5.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-6.png">
+                    <img src="Publics/IMG/certificate/certificate-6.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -114,7 +114,7 @@ include_once 'header.php';
                 </div>
                 <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="Publics/IMG/certificate/certificate-link-6.pdf">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-6.pdf" title="Lien redirigeant vers le certificat au format PDF">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
