@@ -1,7 +1,7 @@
 <?php
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
-include_once '../Controllers/visitors-controller.php';
+include_once '../Controllers/project-controller.php';
 $title = 'Liste de mes projets';
 $body = 'body_project';
 include_once 'header.php';

@@ -18,7 +18,7 @@
                 <a href="index.php" class="brand-logo"><img class="responsive-img headshot-1 img-profile" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
-                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="Accueil">Accueil</a></li>
                     <li><a href="">Compétences</a></li>
                     <li><a href="">Formations</a></li>
                     <li><a href="">Expériences</a></li>
@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <ul class="sidenav" id="mobile-demo">
-                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="Accueil">Accueil</a></li>
                 <li><a href="">Compétences</a></li>
                 <li><a href="">Formations</a></li>
                 <li><a href="">Expériences</a></li>

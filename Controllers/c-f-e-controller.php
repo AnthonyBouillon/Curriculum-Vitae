@@ -1,6 +1,7 @@
 <?php
+
 /* fopen : Ouvre un fichier , r+ : Ouvre en lecture et écriture, et place le pointeur du fichier au début du fichier.  */
-$file_txt = fopen('../compteur-page-certificate.txt', 'r+');
+$file_txt = fopen('../compteur-page-cfe.txt', 'r+');
 /* fgets : Récupère la ligne courante sur laquelle se trouve le pointeur du fichier, donc la première ligne. */
 $number_views = fgets($file_txt);
 // On incrémente de 1 à chaque fois que la page s'actualise.

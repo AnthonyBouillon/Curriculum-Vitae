@@ -1,41 +1,67 @@
 <?php
 
+/* fopen : Ouvre un fichier , r+ : Ouvre en lecture et écriture, et place le pointeur du fichier au début du fichier.  */
+$file_txt = fopen('../compteur-page-contact.txt', 'r+');
+/* fgets : Récupère la ligne courante sur laquelle se trouve le pointeur du fichier, donc la première ligne. */
+$number_views = fgets($file_txt);
+// On incrémente de 1 à chaque fois que la page s'actualise.
+$number_views = $number_views + 1; 
+// fseek : Modifie la position du pointeur de fichier (0 = début du fichié).
+fseek($file_txt, 0); 
+// fwrite : Écrit un fichier en mode binaire, donc 1 2 3 4 etc.
+fwrite($file_txt, $number_views); 
+// PHP ferme automatiquement le fichier.
+// On affiche le nombre de vue d'une page.
+$count_views = 'Cette page a été vue ' . $number_views . ' fois !';
+/*
+ * Instancie l'objet visitors().
+ * Assigne l'adresse ip dans l'attribut ip de l'objet visitors().
+ * Assigne le timestamp dans l'attribut timestamp de l'objet visitors().
+ */
 $visitors = new visitors();
 $visitors->ip = $_SERVER['REMOTE_ADDR'];
 $visitors->timestamp = time();
-
+/*
+ * Si l'adresse ip de l'utilisateur n'existe pas,
+ * on insert l'adresse ip et le timestamp de l'utilisateur dans la base de données.
+ * Si l'adresse ip existe déjà,
+ * on modifie son timestamp dans la base de données.
+ */
 if ($visitors->countIpbyIp() == 0){
     $visitors->createIp();
 }else{
     $visitors->updateTimestamp();
 }
-// On stocke dans une variable le timestamp qu'il était il y a 5 minutes :
-$visitors->timestamp_before_5min = time() - (60 * 5); // 60 * 5 = nombre de secondes écoulées en 5 minutes
+/* On stocke dans un attribut de l'objet visitors() le timestamp qu'il était il y a 5 minutes :
+ * timestamp actuel - (60 * 5) donc 60 secondes fois 5 = 5 minutes,
+ * ce qui fait le timestamps actuel - 5 minutes.
+ */
+$visitors->timestamp_before_5min = time() - (60 * 5); 
+// Supprime le visiteurs datant de plus de 5 minutes.
 $visitors->deleteVisitors();
+/*
+ * Si le nombre d'adresse ip total est égale à 1 : visitor sans "S",
+ * sinon visitors avec un "S".
+ */
 if ($visitors->countIp() == 1){
     $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteur en ligne';
 }else{
     $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteurs en ligne';
 }
 
-$monfichier = fopen('../compteur-page-contact.txt', 'r+');
-$pages_vues = fgets($monfichier); // On lit la première ligne (nombre de pages vues)
-$pages_vues += 1; // On augmente de 1 ce nombre de pages vues
-fseek($monfichier, 0); // On remet le curseur au début du fichier
-fputs($monfichier, $pages_vues); // On écrit le nouveau nombre de pages vues
-fclose($monfichier);
-$compteur_visite = 'Cette page a été vue ' . $pages_vues . ' fois !';
-/*
- * Vérification de la soumission du formulaire
- * Vérification de l'existence des champs
- * Vérification de la valeur des champs
- * Envoi
- * Vérification de l'envoi
- */ 
+// Assigne un tableau vide dans une variable, cela servira à personnaliser les messages d'erreurs et de succès.
 $error = array();
 $success = array();
-
+// Si le formulaire a était soumis
 if(isset($_POST['submit_mail'])){
+    /*
+     * Si le champ est vide,
+     * affiche un message d'erreur.
+     * 
+     * Sinon,
+     * si le champ n'est pas vide et que le filtre ne correspond pas,
+     * affiche un message d'erreur.
+     */ 
     if(empty($_POST['name'])){
         $error['name'] = 'Veuillez saisir votre nom';
     }else{
@@ -71,12 +97,23 @@ if(isset($_POST['submit_mail'])){
             $error['text_regex'] = 'Veuillez saisir un message valide';
         } 
     }
+    /*
+     * Si le formulaire ne comporte aucune erreur,
+     * assigne l'adresse e-mail du destinataire,
+     * assigne le sujet, le message et l'adresse e-mail de l'utilisateur.
+     */ 
     if(count($error) === 0){
         $to      = 'anthonybouilloncontact@gmail.com';
         $subject = $_POST['subject'];
         $message = $_POST['text'];
         $headers = $_POST['mail'];
-
+        /*
+         * Vérifie si le mail a était envoyé avec succcès.
+         * Si oui,
+         * affiche un message de succès.
+         * Si non,
+         * affiche un message d'erreur.
+         */ 
         if(mail($to, $subject, $message, $headers)){
             $success['send_mail'] = 'Votre mail a était envoyez avec succès !';
         }else{
@@ -84,5 +121,6 @@ if(isset($_POST['submit_mail'])){
         }
     }
 }
+
 
 

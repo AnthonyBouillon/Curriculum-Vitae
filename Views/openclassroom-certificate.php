@@ -7,95 +7,120 @@ $body = 'body_openclassroom-certificate';
 include_once 'header.php';
 ?>
 <div class="container">
+<!-- Titre de la page -->
     <h2 class="text-align h2_page-certificate">Liste des certificats obtenus sur le site d'openclassroom</h2>
-
     <div class="row">
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+            <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://course.oc-static.com/courses/1946386/1946386_teaser_picture_1525521657.jpg">
+                    <img src="Publics/IMG/certificate/certificate-1.jpg">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Comprendre le web<br/><br/></p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/4624421369">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-1.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+                <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://course.oc-static.com/courses/4057661/4057661_teaser_picture_1522250852.jpg">
+                    <img src="Publics/IMG/certificate/certificate-2.jpg">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Maintenez-vous à jour en développement</p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/4125755371">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-2.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+                <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://course.oc-static.com/courses/1603881/1603881_teaser_picture_1522246725.jpg">
+                    <img src="Publics/IMG/certificate/certificate-3.jpg">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Apprenez à créer votre site web avec HTML5 et CSS3</p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/2914070235">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-3.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+                <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://course.oc-static.com/courses/918836/918836_teaser_picture_1522246956.jpg">
+                    <img src="Publics/IMG/certificate/certificate-4.jpg">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Concevez votre site web avec PHP et MySQL </p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/7087330723">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-4.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+                <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/3013691/14460490348045_illu_decouverte%20des%20CMS.png">
+                    <img src="Publics/IMG/certificate/certificate-5.png">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Découvrez les solutions CMS<br/><br/></p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/3701379797">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-5.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- Taille de la Carte -->
         <div class="col s12 m6 l6 xl3">
+            <!-- design de la carte -->
             <div class="card">
+                <!-- bloc image -->
                 <div class="card-image">
-                    <img src="https://static.oc-static.com/prod/courses/illustrations/illu_protegez-l-ensemble-de-vos-donnees-sur-votre-ordinateur.png">
+                    <img src="Publics/IMG/certificate/certificate-6.png">
                 </div>
+                <!-- bloc titre du certificat -->
                 <div class="card-content">
                     <p class="bold">Protégez l’ensemble de vos données sur votre ordinateur</p>
                 </div>
+                <!-- bloc lien du certificat -->
                 <div class="card-action">
-                    <a href="https://openclassrooms.com/course-certificates/3263356696">Certificat d'openclassroom</a>
+                    <a href="Publics/IMG/certificate/certificate-link-6.pdf">Certificat d'openclassroom</a>
                 </div>
             </div>
         </div>
-
+        <!-- </div> row -->
     </div>
+    <!-- </div> container -->
 </div>
 <?php
 include_once 'footer.php';

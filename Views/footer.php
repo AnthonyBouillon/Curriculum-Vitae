@@ -13,7 +13,7 @@
             </div>
             <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl1  headshot headshot-1">
                 <h3 class="white-text center-align h3_info_footer">Information</h3>
-                <p class="pfooter"><?= $compteur_visite ?><br/><?= $number_visitors ?></p>
+                <p class="pfooter"><?= $count_views ?><br/><?= $number_visitors ?></p>
             </div>
         </div>
     </div>

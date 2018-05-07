@@ -1,8 +1,6 @@
 <?php
 /**
  * Classe "dataBase" qui sert à se connecter à la base de données
- *
- * @author Bonnie
  */
 class dataBase {
     // Attribut qui est disponible que dans cette classe et tous ceux qui en hérite
