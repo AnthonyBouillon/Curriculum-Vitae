@@ -14,7 +14,7 @@
             </div>
             <!-- Taille du deuxième bloc -->
             <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl1 headshot headshot-1">
-                <h3 class="white-text center-align" id="h3-info">Information</h3>
+                <h3 class="white-text center-align" id="h3-info">Information</h3> 
                 <p id="para-counter"><?= $count_views ?><br/><?= $number_visitors ?></p>
             </div>
         </div>

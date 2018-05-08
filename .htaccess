@@ -5,6 +5,7 @@ RewriteRule ^Contact$ Views/contact.php [L]
 RewriteRule ^Liste-des-projets$ Views/project.php [L] 
 RewriteRule ^Certificats-d'openclassroom$ Views/openclassroom-certificate.php [L] 
 RewriteRule ^Accueil$ index.php [L] 
+RewriteRule ^Compétence-Formation-Experience$ Views/c-f-e.php [L] 
 # Si erreur, redirection vers la page correspondant
 ErrorDocument 400 /CV/Error-page/error.php?error=400
 ErrorDocument 403 /CV/Error-page/error.php?error=403

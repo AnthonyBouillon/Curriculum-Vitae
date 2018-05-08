@@ -12,7 +12,7 @@ include_once 'header.php';
             <h2 class="center-align titleStyle title_form_contact">Formulaire de contact</h2>
             <?= !empty($success['send_mail']) ? '<div class="card-panel teal lighten-2 center-align">' . $success['send_mail'] . '</div>' : '' ?>
             <?= !empty($error['fail_mail']) ? '<div class="card-panel orange lighten-2 center-align">' . $error['fail_mail'] . '</div>' : '' ?>
-            <div class="row">
+            <div class="row"> 
                 <div class="input-field col s12 xl6">
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre nom" id="name" name="name" onblur="form_name()" />

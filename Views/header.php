@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title><?= $title ?></title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="Publics/CSS/main.css" rel="stylesheet" />
-    </head>
+    </head> 
     <body id="<?= $body ?>">
         <header>
             <h1>Curriculum Vitae &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Développeur web junior &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Full-stack</h1>
@@ -19,14 +19,13 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
                     <li><a href="Accueil">Accueil</a></li>
-                    <li><a href="">Compétences</a></li>
-                    <li><a href="">Formations</a></li>
-                    <li><a href="">Expériences</a></li>
+                    <li><a href="Compétence-Formation-Experience#bloc-1">Compétences</a></li>
+                    <li><a href="Compétence-Formation-Experience#bloc-2">Formations</a></li>
+                    <li><a href="Compétence-Formation-Experience#bloc-3">Expériences</a></li>
                     <li><a href="Liste-des-projets">Projets</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Plus <i class="fa fa-caret-down"></i></a></li>
                     <li><a href="Contact">Contact</a></li>
-
                 </ul>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown1' class='dropdown-content'>
@@ -36,7 +35,7 @@
             </div>
             <ul class="sidenav" id="mobile-demo">
                 <li><a href="Accueil">Accueil</a></li>
-                <li><a href="">Compétences</a></li>
+                <li><a href="c-f-e.php">Compétences</a></li>
                 <li><a href="">Formations</a></li>
                 <li><a href="">Expériences</a></li>
                 <li><a href="">Projets</a></li>

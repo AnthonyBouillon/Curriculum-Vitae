@@ -29,16 +29,8 @@ footer {
 
 /* Police */
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+body {
     font-family: 'Montserrat', sans-serif;
-}
-
-p {
-    font-family: 'Arial', Courier, monospace;
 }
 
 section {
@@ -242,10 +234,6 @@ table.spreadsheet tbody tr:hover td {
     background-repeat: no-repeat;
 }
 
-h3 {
-    font-size: 15px;
-    text-align: center;
-}
 
 .first_td {
     width: 170px;
@@ -438,8 +426,8 @@ footer {
     width: 100px;
     border: 5px solid #000435;
     margin-left: -5px !important;
-}
 
+}
 .headshot-1 {
     border-radius: 15%;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=), linear-gradient(to top, #0fd850, #f9f047);
@@ -449,4 +437,81 @@ footer {
     .headshot-1 {
         display: none;
     }
+}
+
+
+/*testcomp*/
+.img-comp{
+    max-width: 125px!important;
+}
+.bloc-comp{
+
+
+}
+.bloc-course{
+
+  
+}
+.title-competence{
+    margin-bottom: 5%;
+
+}
+
+.title-language{
+    text-align: center;
+    color: beige;
+    margin-bottom: 2%;
+}
+.bloc-front-end{
+    background-color: white;
+    margin-right: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 0px;
+
+}
+.title-front-end{
+    font-size: 25px;
+}
+
+.bloc-back-end{
+    background-color: white;
+    margin-right: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 0px;
+ 
+    height: 632.85px;
+}
+.title-back-end{
+    font-size: 25px;
+}
+#body_c-f-e{
+    background-color: #03224C;
+}
+
+/* test title */
+
+.decorative-title {
+
+   
+}
+.decorative-title span {
+    display: block;
+    padding: 2rem 0.5rem 1rem;
+    background-color: #3a4040;
+    color: #f2f2f2;
+    text-align: center;
+    font: 2rem sans-serif;
+    letter-spacing: 0.3rem;
+}
+@media (min-width: 576px) {
+    .decorative-title {
+        width: 100%;
+    }
+    .decorative-title span {
+        font-size: 3rem;
+    }
+}
+.decorative-bar {
+    position: absolute;
+    background-color: #3a4040;
 }
