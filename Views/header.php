@@ -19,7 +19,7 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
                     <li><a href="Accueil">Accueil</a></li>
-                    <li><a href="Compétence-Formation-Experience#bloc-1">Compétences</a></li>
+                    <li><a href="Compétence-Formation-Experience#bloc-competence">Compétences</a></li>
                     <li><a href="Compétence-Formation-Experience#bloc-2">Formations</a></li>
                     <li><a href="Compétence-Formation-Experience#bloc-3">Expériences</a></li>
                     <li><a href="Liste-des-projets">Projets</a></li>
