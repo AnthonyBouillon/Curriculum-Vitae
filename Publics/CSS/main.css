@@ -229,7 +229,7 @@ table.spreadsheet tbody tr:hover td {
 }
 
 .first_td {
-    width: 170px;
+    width: 180px;
 }
 
 .second_td {
@@ -237,7 +237,7 @@ table.spreadsheet tbody tr:hover td {
 }
 
 .fourth_td {
-    width: 220px;
+    width: 200px;
 }
 
 .fifth_td {
@@ -247,6 +247,30 @@ table.spreadsheet tbody tr:hover td {
 
 .text-left {
     text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .fourth_td {
+        display: none;
+    }
+    .fifth_td {
+        display: none;
+    }
+    #fourth_th {
+        display: none;
+    }
+    #fifth_th {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .first_td {
+        display: none;
+    }
+    #first_th {
+        display: none;
+    }
 }
 
 #body_openclassroom-certificate {
@@ -291,7 +315,7 @@ h1 {
 /* ************************************* CSS du menu ************************************************************* */
 
 .dropdown-content {
-    width: 170px !important;
+    width: 100% !important;
 }
 
 nav {
@@ -299,7 +323,8 @@ nav {
 }
 
 nav ul li {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
@@ -451,6 +476,11 @@ footer {
 
 .bloc-course {
     margin-bottom: -20px!important;
+    background-color: #00BFFF;
+}
+
+.bloc-exp {
+    background-color: #24445C;
 }
 
 .title-competence {
@@ -509,6 +539,7 @@ footer {
     letter-spacing: 0.3rem;
     font-size: 3rem;
 }
+
 .decorative-title #title-course {
     display: block;
     padding: 2rem 0.5rem 1rem;
@@ -520,6 +551,7 @@ footer {
     margin-bottom: 0;
     font-size: 3rem;
 }
+
 .decorative-title #title-exp {
     display: block;
     padding: 2rem 0.5rem 1rem;
@@ -531,7 +563,6 @@ footer {
     margin-bottom: 0;
     font-size: 3rem;
 }
-
 
 .decorative-bar {
     position: absolute;

@@ -19,9 +19,7 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
                     <li><a href="Accueil">Accueil</a></li>
-                    <li><a href="Compétence-Formation-Experience#bloc-competence">Compétences</a></li>
-                    <li><a href="Compétence-Formation-Experience#bloc-2">Formations</a></li>
-                    <li><a href="Compétence-Formation-Experience#bloc-3">Expériences</a></li>
+                    <li><a href="Compétence-Formation-Experience">Compétences | Formations | Expériences</a></li>
                     <li><a href="Liste-des-projets">Projets</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Plus <i class="fa fa-caret-down"></i></a></li>
@@ -35,9 +33,7 @@
             </div>
             <ul class="sidenav" id="mobile-demo">
                 <li><a href="Accueil">Accueil</a></li>
-                <li><a href="c-f-e.php">Compétences</a></li>
-                <li><a href="">Formations</a></li>
-                <li><a href="">Expériences</a></li>
+                <li><a href="Compétence-Formation-Experience">Compétences | Formations | Expériences</a></li>
                 <li><a href="">Projets</a></li>
                 <li><a href="Contact">Contact</a></li>
                 <li><a href="Publics/IMG/Anthony-Bouillon_CV.pdf">CV au format PDF</a></li>

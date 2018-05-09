@@ -18,7 +18,7 @@ include_once 'header.php';
         <div class="col s12 m12 l12 xl6">
             <!-- Sous-titre de la catégorie language -->
             <div class="col s12 title-language">
-                <h3>Language</h3>
+                <h3>Langage</h3>
             </div>
 
             <!-- Début du bloc front-end -->
@@ -388,101 +388,89 @@ include_once 'header.php';
                 <h2 class="center-align" id="title-course">FORMATION</h2>
             </div>
             <div class="row bloc-course">
-                <div class="col s12 m4"> 	
+                <div class="col s12 m12 l6 xl4"> 	
                     <div class="card">
                         <div class="card-image">
                             <img src="http://www.itii-chatellerault.fr/wp-content/uploads/2016/11/diplome-d-ingenieur-itii-chatelerault-2.jpg" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Obtention du titre professionnel "Développeur logiciel" de niveau III.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Date de l'obtention : 17/04/2018</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m12 l6 xl4">
                     <div class="card">
                         <div class="card-image">
                             <img src="https://reseau.ecole-multimedia.com/medias/image/103654877159e8646a58b1f.jpg" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Certification des bonnes pratiques <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Validité : 08/12/2017 au 08/12/2022</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m12 l12 xl4">
                     <div class="card">
                         <div class="card-image">
                             <img src="https://omrconsulting.fr/sites/default/files/formation.png" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Formation de développeur web afin de preparer le titre professionnel<br/> « Développeur-se logiciel TP01280 » Niveau III équivalent BAC+2.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Durée : 09/09/2017 au 06/04/2018, 840 heures</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row bloc-course"  id="bloc-3">
+        <div class="row bloc-exp"  id="bloc-3">
             <div class="decorative-title">
-                <h2 id="title-exp">EXPERIENCE PROFESSIONNEL</h2>
+                <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE</h2>
             </div>
             <div class="row">
-                <div class="col s12 m4">
+                <div class="col s12 m6 l6 xl4">
                     <div class="card">
                         <div class="card-image">
                             <img src="http://www.jeanmichelclement.com/wp-content/uploads/2018/03/service-civique-1920x1080.jpg" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Service civique.<br/><br/><em>Chez le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Durée : 3 mois en 2017</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m6 l6 xl4">
                     <div class="card">
                         <div class="card-image">
                             <img src="http://www.houston-macdougal.com/wp-content/uploads/2017/12/visiteur-commercial.png" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Gestionnaire de la relation client.<br/><br/><em>Chez L'2PHONE à Villers-Saint-Paul</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Durée : 7 mois en 2016 </p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m12 l12 xl4">
                     <div class="card">
                         <div class="card-image">
                             <img src="http://www.mehach-magazine.com/wp-content/uploads/2018/03/c2e01c8f1f87cbd7fbb41676bade9187.jpg" class="responsive-img">
-                            <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <p>Agent polyvalent du batîment.<br/><br/><em>Chez Elan ces à Noyon</em></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <p>Durée : 16 mois en 2013-2015</p>
                         </div>
                     </div>
                 </div>
