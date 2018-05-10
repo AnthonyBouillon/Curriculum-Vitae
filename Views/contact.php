@@ -17,7 +17,7 @@ include_once 'header.php';
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre nom" id="name" name="name" onblur="form_name()" />
                     <label for="name" class="bold label">Nom <span class="text-red">*</span></label>
-                    <span id="error_name"></span>
+                    <span id="msg_name"></span>
                     <span class="text-red"><?= $error['name'] ?? '' ?></span>
                     <span class="text-red"><?= $error['name_regex'] ?? '' ?></span>
                 </div>            
@@ -25,7 +25,7 @@ include_once 'header.php';
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre prénom" id="first_name" name="first_name" onblur="form_first_name()" />
                     <label for="first_name" class="bold label">Prénom <span class="text-red">*</span></label>
-                    <span id="error_first_name"></span>
+                    <span id="msg_first_name"></span>
                     <span class="text-red"><?= $error['first_name'] ?? '' ?></span>
                     <span class="text-red"><?= $error['first_name_regex'] ?? '' ?></span>
                 </div>
@@ -35,7 +35,7 @@ include_once 'header.php';
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="email" placeholder="Ecrivez votre adresse e-mail" id="mail" name="mail" onblur="form_mail()" />
                     <label for="mail" class="bold label">E-mail <span class="text-red">*</span></label>
-                    <span id="error_mail"></span>
+                    <span id="msg_mail"></span>
                     <span class="text-red"><?= $error['mail'] ?? '' ?></span>
                     <span class="text-red"><?= $error['mail_regex'] ?? '' ?></span>
                 </div>    
@@ -43,7 +43,7 @@ include_once 'header.php';
                     <i class="material-icons prefix">mode_edit</i>
                     <input type="text" placeholder="Ecrivez la raison de votre message" id="subject" name="subject" onblur="form_subject()" />
                     <label for="subject" class="bold label">Sujet <span class="text-red">*</span></label>
-                    <span id="error_subject"></span>
+                    <span id="msg_subject"></span>
                     <span class="text-red"><?= $error['subject'] ?? '' ?></span>
                     <span class="text-red"><?= $error['subject_regex'] ?? '' ?></span>
                 </div>
@@ -53,7 +53,7 @@ include_once 'header.php';
                     <i class="material-icons prefix">mode_edit</i>
                     <textarea placeholder="Ecrivez votre message" class="materialize-textarea" id="text" name="text" onblur="form_text()"></textarea>
                     <label for="text" class="bold label">Message <span class="text-red">*</span></label>
-                    <span id="error_message"></span>
+                    <span id="msg_message"></span>
                     <span class="text-red"><?= $error['text'] ?? '' ?></span>
                     <span class="text-red"><?= $error['text_regex'] ?? '' ?></span>
                 </div>

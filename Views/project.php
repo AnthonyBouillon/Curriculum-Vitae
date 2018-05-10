@@ -21,7 +21,7 @@ include_once 'header.php';
             </tr>
         </thead>
         <tbody>
-            <tr onmouseover="test1()" onmouseout="test2()">
+            <tr onmouseover="mouseover1()" onmouseout="mouseout1()">
                 <th scope="row" class="text-align">1</th> 
                 <td class="first_td"><abbr title="All Plateform Together" lang="en">APT</abbr></td>
                 <td class="second_td">Hébergé-><i class="fa fa-times"></i><br/><a href="https://github.com/AnthonyBouillon/projet_professionnel" class="bold" id="link_project_1">Répertoire github</a></td>
@@ -34,7 +34,7 @@ include_once 'header.php';
                 </td>
                 <td class="fifth_td">17/04/2018</td>
             </tr>
-            <tr onmouseover="test3()" onmouseout="test4()">
+            <tr onmouseover="mouseover2()" onmouseout="mouseout2()">
                 <th scope="row" class="text-align">2</th>
                 <td class="first_td">Memento</td>
                 <td class="second_td">Hébergé-><a href="https://memento-dev-web.000webhostapp.com/Memento/Html" class="bold" id="link_project_2">Site web</a><br/><a href="https://github.com/AnthonyBouillon/Memento" class="bold" id="link_project_3">Répertoire github</a></td>
@@ -44,7 +44,7 @@ include_once 'header.php';
                 </td>
                 <td class="fifth_td">28/12/2017</td>
             </tr>
-            <tr onmouseover="test5()" onmouseout="test6()">
+            <tr onmouseover="mouseover3()" onmouseout="mouseout3()">
                 <th scope="row" class="text-align">3</th>
                 <td class="first_td">CV numérique #1</td>
                 <td class="second_td">Hébergé-><a href="https://anthonybouillon.github.io/" class="bold" id="link_project_4">Site web</a><br/><a href="https://github.com/AnthonyBouillon/AnthonyBouillon.github.io" class="bold" id="link_project_5">Répertoire github</a></td>

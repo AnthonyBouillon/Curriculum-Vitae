@@ -6,7 +6,7 @@
                 <h3 class="black-text" id="h3-name">Anthony BOUILLON</h3>
                 <!-- Image de profil -->
                 <img class="responsive-img img-profile" id="img-display" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo de profil" alt="Photo">
-                <p class="black-text text-lighten-4 bold">Haut de france; Le Plessis-Brion, 60150; anthony-bouillon@outlook.fr; 06-49-70-52-50</p>
+                <p class="white-text text-lighten-4 bold para-footer">Haut de france; Le Plessis-Brion, 60150; anthony-bouillon@outlook.fr; 06-49-70-52-50</p>
                 <!-- Icones des réseaux sociaux -->
                 <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/"><i class="fa fa-linkedin" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"></i></a>
                 <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_"><i class="fa fa-twitter" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"></i></a>
@@ -25,4 +25,4 @@
 <script src="Publics/JS/main.js"></script>
 <script src="Publics/JS/display-text.js"></script>
 </body>
-</html>
+</html> 

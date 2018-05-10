@@ -2,7 +2,7 @@
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
 include_once '../Controllers/c-f-e-controller.php';
-$title = 'A voir';
+$title = 'Compétences | Formation | Expériences';
 $body = 'body_c-f-e';
 include_once 'header.php';
 ?>
@@ -20,7 +20,6 @@ include_once 'header.php';
             <div class="col s12 title-language">
                 <h3>Langage</h3>
             </div>
-
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
@@ -72,7 +71,6 @@ include_once 'header.php';
                     </div>
                     <!-- Fin d'un bloc contenant une compétence -->
                 </div>
-
             </div>
             <!-- Fin du bloc front-end -->
             <!-- Début du bloc back-end -->
@@ -118,7 +116,6 @@ include_once 'header.php';
             <div class="col s12 title-language">
                 <h3>Framework et librairie</h3>
             </div>
-
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
@@ -179,10 +176,6 @@ include_once 'header.php';
                     <h4 class="center-align title-back-end">Back-end</h4><hr/><br/><br/>
                 </div>
                 <div class="row">
-                    <!-- bloc image -->
-                    <div class="col s4">
-                        <img src="" alt="" class="responsive-img img-comp"/>
-                    </div>
                     <!-- Barre de progression -->
                     <div class="col s8">
                         <p class="center-align"></p>
@@ -192,10 +185,6 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="row">
-                    <!-- bloc image -->
-                    <div class="col s4">
-                        <img src="" alt="" class="img-comp"/>
-                    </div>
                     <!-- Barre de progression -->
                     <div class="col s8">
                         <p class="center-align"></p>
@@ -210,16 +199,12 @@ include_once 'header.php';
             <!-- Fin du bloc framework et librairie -->
             <!-- Fin du bloc-competence -->
         </div>
-
-
-
         <!-- Sous bloc language -->
         <div class="col s12 m12 l12 xl6">
             <!-- Sous-titre de la catégorie language -->
             <div class="col s12 title-language">
                 <h3>Environnement de travail</h3>
             </div>
-
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
@@ -256,8 +241,6 @@ include_once 'header.php';
                     </div>
                     <!-- Fin d'un bloc contenant une compétence -->
                 </div>
-
-
             </div>
             <!-- Fin du bloc front-end -->
             <!-- Début du bloc back-end -->
@@ -303,7 +286,6 @@ include_once 'header.php';
             <div class="col s12 title-language">
                 <h3>Autre</h3>
             </div>
-
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
@@ -340,7 +322,6 @@ include_once 'header.php';
                     </div>
                     <!-- Fin d'un bloc contenant une compétence -->
                 </div>
-
             </div>
             <!-- Fin du bloc front-end -->
             <!-- Début du bloc back-end -->
@@ -381,104 +362,100 @@ include_once 'header.php';
             <!-- Fin du bloc framework et librairie -->
             <!-- Fin du bloc-competence -->
         </div>
-  </div>
-
+    </div>
+    <div class="row">
+        <div class="decorative-title">
+            <h2 class="center-align" id="title-course">FORMATION</h2>
+        </div>
+        <div class="row bloc-course">
+            <div class="col s12 m12 l6 xl4"> 	
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://www.itii-chatellerault.fr/wp-content/uploads/2016/11/diplome-d-ingenieur-itii-chatelerault-2.jpg" alt="Image de diplômés" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <p>Obtention du titre professionnel "Développeur logiciel" de niveau III.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Date de l'obtention : 17/04/2018</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://reseau.ecole-multimedia.com/medias/image/103654877159e8646a58b1f.jpg" alt="Logo officiel d'opquast" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <p>Certification des bonnes pratiques <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Validité : 08/12/2017 au 08/12/2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l12 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://omrconsulting.fr/sites/default/files/formation.png" alt="Image de gens en formation" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <p>Formation de développeur web afin de preparer le titre professionnel<br/> « Développeur-se logiciel TP01280 » Niveau III équivalent BAC+2.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Durée : 09/09/2017 au 06/04/2018, 840 heures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row bloc-exp"  id="bloc-3">
+        <div class="decorative-title">
+            <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE</h2>
+        </div>
         <div class="row">
-            <div class="decorative-title">
-                <h2 class="center-align" id="title-course">FORMATION</h2>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://www.jeanmichelclement.com/wp-content/uploads/2018/03/service-civique-1920x1080.jpg" alt="Image d'un tableau avec comme écriture : service civique" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <p>Service civique.<br/><br/><em>Chez le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Durée : 3 mois en 2017</p>
+                    </div>
+                </div>
             </div>
-            <div class="row bloc-course">
-                <div class="col s12 m12 l6 xl4"> 	
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="http://www.itii-chatellerault.fr/wp-content/uploads/2016/11/diplome-d-ingenieur-itii-chatelerault-2.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Obtention du titre professionnel "Développeur logiciel" de niveau III.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Date de l'obtention : 17/04/2018</p>
-                        </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://www.houston-macdougal.com/wp-content/uploads/2017/12/visiteur-commercial.png" alt="Image de commerciaux" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <p>Gestionnaire de la relation client.<br/><br/><em>Chez L'2PHONE à Villers-Saint-Paul</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Durée : 7 mois en 2016 </p>
                     </div>
                 </div>
-                <div class="col s12 m12 l6 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="https://reseau.ecole-multimedia.com/medias/image/103654877159e8646a58b1f.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Certification des bonnes pratiques <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Validité : 08/12/2017 au 08/12/2022</p>
-                        </div>
+            </div>
+            <div class="col s12 m12 l12 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://www.mehach-magazine.com/wp-content/uploads/2018/03/c2e01c8f1f87cbd7fbb41676bade9187.jpg" alt="Image d'agent polyvalent du batîment" class="responsive-img">
                     </div>
-                </div>
-                <div class="col s12 m12 l12 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="https://omrconsulting.fr/sites/default/files/formation.png" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Formation de développeur web afin de preparer le titre professionnel<br/> « Développeur-se logiciel TP01280 » Niveau III équivalent BAC+2.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Durée : 09/09/2017 au 06/04/2018, 840 heures</p>
-                        </div>
+                    <div class="card-content">
+                        <p>Agent polyvalent du batîment.<br/><br/><em>Chez Elan ces à Noyon</em></p>
+                    </div>
+                    <div class="card-action">
+                        <p>Durée : 16 mois en 2013-2015</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row bloc-exp"  id="bloc-3">
-            <div class="decorative-title">
-                <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE</h2>
-            </div>
-            <div class="row">
-                <div class="col s12 m6 l6 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="http://www.jeanmichelclement.com/wp-content/uploads/2018/03/service-civique-1920x1080.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Service civique.<br/><br/><em>Chez le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Durée : 3 mois en 2017</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l6 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="http://www.houston-macdougal.com/wp-content/uploads/2017/12/visiteur-commercial.png" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Gestionnaire de la relation client.<br/><br/><em>Chez L'2PHONE à Villers-Saint-Paul</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Durée : 7 mois en 2016 </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l12 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="http://www.mehach-magazine.com/wp-content/uploads/2018/03/c2e01c8f1f87cbd7fbb41676bade9187.jpg" class="responsive-img">
-                        </div>
-                        <div class="card-content">
-                            <p>Agent polyvalent du batîment.<br/><br/><em>Chez Elan ces à Noyon</em></p>
-                        </div>
-                        <div class="card-action">
-                            <p>Durée : 16 mois en 2013-2015</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-  
+    </div>
 </div>
 <!-- Fin du contenu -->
-
 <?php
 include_once 'footer.php';
