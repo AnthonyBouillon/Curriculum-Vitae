@@ -1,7 +1,6 @@
 #body_contact {
     background-image: url(http://www.geomarketing.com/wp-content/uploads/2015/05/BG-email-marketing.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
@@ -58,14 +57,14 @@ section {
 
 .contact-block {
     border: 5px solid #000435;
-    box-shadow: 0px 0px 10px 10px black;
+    box-shadow: 0px 0px 15px 5px black;
     border-radius: 15px;
     background: beige;
-    margin-top: 1%;
+    margin-top: 0.5%;
 }
 
 .bloc-info {
-    height: 565px;
+    height: 595.86px;
     border: 5px solid black;
 }
 
@@ -581,4 +580,12 @@ footer {
 .fa-html5 {
     font-size: 100px;
     color: red;
+}
+
+.msg-error {
+    margin-left: 45px;
+}
+
+.msg-msg-error {
+    margin-left: 42px;
 }

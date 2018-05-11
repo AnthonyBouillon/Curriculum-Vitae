@@ -76,23 +76,23 @@ function validate_Form() {
      * on affiche correct et on colore le message en vert
      */
     if (name.value === '') {
-        error[0].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[0].innerHTML = 'Veuillez remplir ce champ.';
         error[0].style.color = 'red';
     }
     if (first_name.value === '') {
-        error[1].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[1].innerHTML = 'Veuillez remplir ce champ.';
         error[1].style.color = 'red';
     }
     if (mail.value === '') {
-        error[2].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[2].innerHTML = 'Veuillez remplir ce champ.';
         error[2].style.color = 'red';
     }
     if (subject.value === '') {
-        error[3].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[3].innerHTML = 'Veuillez remplir ce champ.';
         error[3].style.color = 'red';
     }
     if (text.value === '') {
-        error[4].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[4].innerHTML = 'Veuillez remplir ce champ.';
         error[4].style.color = 'red';
     }
     /* Si les champs ne sont pas vide,
@@ -116,10 +116,10 @@ function form_name() {
     success[0] = document.getElementById('msg_name');
     error[0] = document.getElementById('msg_name');
     if (name.value === '') {
-        error[0].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[0].innerHTML = 'Veuillez remplir ce champ.';
         error[0].style.color = 'red';
     } else {
-        success[0].innerHTML = 'Correct';
+        success[0].innerHTML = 'Correct.';
         success[0].style.color = 'green';
     }
 }
@@ -131,10 +131,10 @@ function form_first_name() {
     success[1] = document.getElementById('msg_first_name');
     error[1] = document.getElementById('msg_first_name');
     if (first_name.value === '') {
-        error[1].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[1].innerHTML = 'Veuillez remplir ce champ.';
         error[1].style.color = 'red';
     } else {
-        success[1].innerHTML = 'Correct';
+        success[1].innerHTML = 'Correct.';
         success[1].style.color = 'green';
     }
 }
@@ -148,14 +148,14 @@ function form_mail() {
     error[2] = document.getElementById('msg_mail');
     if (mail.value != '') {
         if (expressionReguliere.test(mail.value)) {
-            success[2].innerHTML = 'Mail valide';
+            success[2].innerHTML = 'Mail valide.';
             success[2].style.color = 'green';
         } else {
-            error[2].innerHTML = 'Mail invalide';
+            error[2].innerHTML = 'Mail invalide.';
             error[2].style.color = 'red';
         }
     } else {
-        error[2].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[2].innerHTML = 'Veuillez remplir ce champ.';
         error[2].style.color = 'red';
     }
 }
@@ -167,10 +167,10 @@ function form_subject() {
     success[3] = document.getElementById('msg_subject');
     error[3] = document.getElementById('msg_subject');
     if (subject.value === '') {
-        error[3].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[3].innerHTML = 'Veuillez remplir ce champ.';
         error[3].style.color = 'red';
     } else {
-        success[3].innerHTML = 'Correct';
+        success[3].innerHTML = 'Correct.';
         success[3].style.color = 'green';
     }
 }
@@ -182,10 +182,10 @@ function form_text() {
     success[4] = document.getElementById('msg_message');
     error[4] = document.getElementById('msg_message');
     if (text.value === '') {
-        error[4].innerHTML = 'Veuillez remplir ce champ avant de valider';
+        error[4].innerHTML = 'Veuillez remplir ce champ.';
         error[4].style.color = 'red';
     } else {
-        success[4].innerHTML = 'Correct';
+        success[4].innerHTML = 'Correct.';
         success[4].style.color = 'green';
     }
 }
