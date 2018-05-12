@@ -7,9 +7,9 @@
                 <img class="responsive-img img-profile" id="img-display" src="Publics/IMG/anthony.jpg" title="Photo de profil" alt="Photo">
                 <p class="white-text text-lighten-4 bold para-footer">Haut de france; Le Plessis-Brion, 60150; anthony-bouillon@outlook.fr; 06-49-70-52-50</p>
                 <!-- Icones des réseaux sociaux -->
-                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/"><i class="fa fa-linkedin" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"></i></a>
-                <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_"><i class="fa fa-twitter" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"></i></a>
-                <a class="grey-text text-lighten-3" href="https://github.com/AnthonyBouillon"><i class="fa fa-github" aria-hidden="true" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"></i></a> 
+                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"><i class="fa fa-linkedin" alt="Logo linkedin"></i></a>
+                <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"><i class="fa fa-twitter" alt="Logo twitter"></i></a>
+                <a class="grey-text text-lighten-3" href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a> 
             </div>
             <!-- Taille du deuxième bloc -->
             <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl1 headshot headshot-1 bloc-footer">

@@ -106,7 +106,7 @@ include_once 'header.php';
                     <div class="card">
                         <!-- bloc image -->
                         <div class="card-image">
-                            <img src="Publics/IMG/certificate/certificate-6.png" alt="Image du cours, correspondant au certificat" />
+                            <img src="Publics/IMG/certificate/certificate-6.png" alt="Image du cours, correspondant au certificat"/>
                         </div>
                         <!-- bloc titre du certificat -->
                         <div class="card-content">

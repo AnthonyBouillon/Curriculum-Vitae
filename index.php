@@ -23,7 +23,7 @@ $body = 'body_home';
         </header>
         <nav>
             <div class="nav-wrapper">
-                <a href="index.php" class="brand-logo"><img class="responsive-img headshot-1 img-profile" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
+                <a href="Accueil" class="brand-logo"><img class="responsive-img headshot-1 img-profile" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
                     <li><a href="Accueil">Accueil</a></li>
@@ -56,7 +56,7 @@ $body = 'body_home';
                     <p class="para-subtitle col s11 offset-s1">Avant toute chose voici ce que vous devez savoir <i class="fa fa-arrow-down"></i></p>
                 </div>
                 <div class="row">
-                    <p class="para-index col s11 offset-s1">Ayant obtenu depuis peu le titre professionnel « Développeur-se logiciel TP01280 » Niveau III.<br/>Je suis actuellement à la recherche d'un contrat de professionnalisation pour poursuivre en licence (BAC+3/4).<br/><br/>Alors, si après votre visite, vous pensez que je peux correspondre au profil, contactez-moi  via le formulaire de <a href="Contact">contact</a> :)</p>
+                    <p class="para-index col s11 offset-s1">Ayant obtenu depuis peu le titre professionnel « <strong>Développeur-se logiciel TP01280</strong> » Niveau III.<br/>Je suis actuellement à la recherche d'un <strong>contrat de professionnalisation</strong> pour poursuivre en licence (BAC+3/4).<br/><br/>Alors, si après votre visite, vous pensez que je peux correspondre au profil, contactez-moi  via le formulaire de <a href="Contact" title="Lien redirigeant vers un formulaire de contact">contact</a> :)</p>
                 </div>
             </section>
             <div class="row">
@@ -100,9 +100,9 @@ $body = 'body_home';
                         <img class="responsive-img img-profile" id="img-display" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo de profil" alt="Photo">
                         <p class="white-text text-lighten-4 bold para-footer">Haut de france; Le Plessis-Brion, 60150; anthony-bouillon@outlook.fr; 06-49-70-52-50</p>
                         <!-- Icones des réseaux sociaux -->
-                        <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/"><i class="fa fa-linkedin" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"></i></a>
-                        <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_"><i class="fa fa-twitter" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"></i></a>
-                        <a class="grey-text text-lighten-3" href="https://github.com/AnthonyBouillon"><i class="fa fa-github" aria-hidden="true" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"></i></a> 
+                        <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"><i class="fa fa-linkedin" alt="Logo linkedin"></i></a>
+                        <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"><i class="fa fa-twitter" alt="Logo twitter"></i></a>
+                        <a class="grey-text text-lighten-3" href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a> 
                     </div>
                     <!-- Taille du deuxième bloc -->
                     <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl1 headshot headshot-1">

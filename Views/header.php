@@ -15,11 +15,11 @@
         </header>
         <nav>
             <div class="nav-wrapper">
-                <a href="index.php" class="brand-logo"><img class="responsive-img headshot-1 img-profile" src="Publics/IMG/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
+                <a href="Accueil" class="brand-logo"><img class="responsive-img headshot-1 img-profile" src="Publics/IMG/anthony.jpg" title="Photo redirigeant vers la page d'accueil" alt="Photo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down bold">
                     <li><a href="Accueil">Accueil</a></li>
-                    <li><a href="Compétence-Formation-Experience">Compétences | Formations | Expériences</a></li>
+                    <li><a href="Compétence-Formation-Experience#top">Compétences | Formations | Expériences</a></li>
                     <li><a href="Liste-des-projets">Projets</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Plus <i class="fa fa-caret-down"></i></a></li>

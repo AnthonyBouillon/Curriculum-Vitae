@@ -14,7 +14,7 @@ include_once 'header.php';
             <?= !empty($error['fail_mail']) ? '<div class="card-panel orange lighten-2 center-align">' . $error['fail_mail'] . '</div>' : '' ?>
             <div class="row"> 
                 <div class="input-field col s12 xl6">
-                    <i class="material-icons prefix">mode_edit</i>
+                    <i class="material-icons prefix" alt="Image">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre nom" id="name" name="name" onblur="form_name()" />
                     <label for="name" class="bold label">Nom <span class="text-red">*</span></label>
                     <span id="msg_name" class="msg-error"></span>
@@ -22,7 +22,7 @@ include_once 'header.php';
                     <span class="text-red"><?= $error['name_regex'] ?? '' ?></span>
                 </div>            
                 <div class="input-field col s12 xl6">
-                    <i class="material-icons prefix">mode_edit</i>
+                    <i class="material-icons prefix" alt="Image">mode_edit</i>
                     <input type="text" placeholder="Ecrivez votre prénom" id="first_name" name="first_name" onblur="form_first_name()" />
                     <label for="first_name" class="bold label">Prénom <span class="text-red">*</span></label>
                     <span id="msg_first_name" class="msg-error"></span>
@@ -32,7 +32,7 @@ include_once 'header.php';
             </div>
             <div class="row">
                 <div class="input-field col s12 xl6">
-                    <i class="material-icons prefix">mode_edit</i>
+                    <i class="material-icons prefix" alt="Image">mode_edit</i>
                     <input type="email" placeholder="Ecrivez votre adresse e-mail" id="mail" name="mail" onblur="form_mail()" />
                     <label for="mail" class="bold label">E-mail <span class="text-red">*</span></label>
                     <span id="msg_mail" class="msg-error"></span>
@@ -40,7 +40,7 @@ include_once 'header.php';
                     <span class="text-red"><?= $error['mail_regex'] ?? '' ?></span>
                 </div>    
                 <div class="input-field col s12 xl6">
-                    <i class="material-icons prefix">mode_edit</i>
+                    <i class="material-icons prefix" alt="Image">mode_edit</i>
                     <input type="text" placeholder="Ecrivez la raison de votre message" id="subject" name="subject" onblur="form_subject()" />
                     <label for="subject" class="bold label">Sujet <span class="text-red">*</span></label>
                     <span id="msg_subject" class="msg-error"></span>
@@ -50,7 +50,7 @@ include_once 'header.php';
             </div>
             <div class="row">
                 <div class="input-field col s12 xl12">
-                    <i class="material-icons prefix">mode_edit</i>
+                    <i class="material-icons prefix" alt="Image">mode_edit</i>
                     <textarea placeholder="Ecrivez votre message" class="materialize-textarea" id="text" name="text" onblur="form_text()"></textarea>
                     <label for="text" class="bold label">Message <span class="text-red">*</span></label>
                     <span id="msg_message" class="msg-msg-error"></span>
@@ -61,7 +61,7 @@ include_once 'header.php';
             <div class="row">
                 <div class="input-field col s12 xl12">
                     <button type="submit" class="btn waves-effect waves-light bold"  id="submit_mail" name="submit_mail">Envoyez
-                        <i class="material-icons right">send</i>
+                        <i class="material-icons right" alt="Image">send</i>
                     </button>
                 </div>
             </div>

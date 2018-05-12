@@ -411,7 +411,7 @@ include_once 'header.php';
     </div>
     <div class="row bloc-exp"  id="bloc-3">
         <div class="decorative-title">
-            <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE</h2>
+            <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE <a href="#top"><i class="fa fa-arrow-up" title="Remonter vers le haut de la page"></i></a></h2>
         </div>
         <div class="row">
             <div class="col s12 m6 l6 xl4">
