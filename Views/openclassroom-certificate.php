@@ -1,4 +1,4 @@
-<?php
+<?php 
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
 include_once '../Controllers/certificate-controller.php';

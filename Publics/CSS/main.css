@@ -1,10 +1,3 @@
-#body_contact {
-    background-image: url(http://www.geomarketing.com/wp-content/uploads/2015/05/BG-email-marketing.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 html,
 body {
     height: 100%;
@@ -26,50 +19,7 @@ footer {
 }
 
 
-/* Police */
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-section {
-    margin-top: 0.7%;
-}
-
-
-/* Photo */
-
-
-/* En-tête */
-
-.title_form_contact {
-    letter-spacing: 2px;
-}
-
-
-/* Menu */
-
-
-/* Icon font awesome */
-
-
-/* Les deux blocs de la page contact */
-
-.contact-block {
-    border: 5px solid #000435;
-    box-shadow: 0px 0px 15px 5px black;
-    border-radius: 15px;
-    background: beige;
-    margin-top: 0.5%;
-}
-
-.bloc-info {
-    height: 595.86px;
-    border: 5px solid black;
-}
-
-
-/* Classe classique */
+/* ************************************* Classe classique ******************************************************** */
 
 .titleStyle {
     margin: 0;
@@ -91,6 +41,44 @@ section {
 }
 
 
+/* ************************************* Page contact ************************************************************ */
+
+@media screen and (max-width: 1200px) {
+    .contact-block {
+        min-height: 700px !important;
+    }
+}
+
+section {
+    margin-top: 0.7%;
+}
+
+button {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    h2,
+    h3 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 790px) {
+    .title_info_more {
+        font-size: 17px !important;
+    }
+}
+
+.msg-error {
+    margin-left: 45px;
+}
+
+.msg-msg-error {
+    margin-left: 42px;
+}
+
+
 /* Formulaire */
 
 ::-moz-placeholder {
@@ -98,47 +86,33 @@ section {
 }
 
 .label {
-    color: black!important;
-    font-size: 20px!important;
+    color: black !important;
+    font-size: 20px !important;
 }
 
-button {
-    width: 100%;
+.contact-block {
+    border: 5px solid #000435;
+    box-shadow: 0px 0px 15px 5px black;
+    border-radius: 15px;
+    background: beige;
+    margin-top: 0.5%;
 }
 
-
-/* Footer */
-
-
-/* Media queries */
-
-@media screen and (max-width: 1200px) {
-    h2,
-    h3 {
-        font-size: 25px!important;
-    }
+.bloc-info {
+    height: 595.86px;
+    border: 5px solid #000435;
+    box-shadow: 0px 0px 15px 5px black;
+    border-radius: 15px;
+    background: #FEFDF0;
+    margin-top: 0.5%;
 }
 
-@media screen and (max-width: 1200px) {
-    .contact-block {
-        min-height: 700px!important;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 790px) {
-    .title_info_more {
-        font-size: 17px!important;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    h3 {
-        font-size: 25px;
-    }
+.title_form_contact {
+    letter-spacing: 2px;
 }
 
 
-/* Page projet / Tableau */
+/* ************************************* Page project ************************************************************ */
 
 table {
     margin-bottom: 5%;
@@ -205,9 +179,6 @@ td {
     border: 1px solid white;
 }
 
-
-/* horizontale hover */
-
 table.spreadsheet tbody tr:hover td {
     background-color: teal;
     color: white;
@@ -220,11 +191,6 @@ table.spreadsheet tbody tr:hover td {
     padding: 5px;
     border-radius: 5px;
     opacity: 1;
-}
-
-#body_project {
-    background-image: url("../IMG/background/background-project.png");
-    background-repeat: no-repeat;
 }
 
 .first_td {
@@ -270,11 +236,48 @@ table.spreadsheet tbody tr:hover td {
     #first_th {
         display: none;
     }
+    .number_th {
+        display: none;
+    }
 }
 
+
+/* ************************************* Background ************************************************************** */
+
 #body_openclassroom-certificate {
-    background-image: url("http://www.pptbackgrounds.org/uploads/hardworking-student-powerpoint-templates.JPG");
+    background-image: url("../IMG/background/certificate.JPG");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_project {
+    background-image: url("../IMG/background/background-project.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_contact {
+    background-image: url("../IMG/background/background-project.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_c-f-e {
+    background-color: #03224C;
+}
+
+#body_home {
+    background-image: url("../IMG/background/background-project.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -314,7 +317,7 @@ h1 {
 /* ************************************* CSS du menu ************************************************************* */
 
 .dropdown-content {
-    width: 100% !important;
+    width: 250px!important;
 }
 
 nav {
@@ -338,8 +341,8 @@ footer {
     color: white;
 }
 
-.para-index {
-    margin-top: 6%;
+.bloc-footer {
+    margin-top: 1% !important;
 }
 
 .para-footer {
@@ -466,72 +469,61 @@ footer {
 }
 
 
-/*testcomp*/
+/* ************************************* Page accueil ****************************************************************** */
 
-#bloc-3 {
-    margin-bottom: -20px!important;
-}
-
-#bloc-2 {
-    margin-bottom: -20px !important;
-}
-
-.img-comp {
-    max-width: 80px!important;
-}
-
-.bloc-comp {}
-
-.bloc-course {
-    margin-bottom: -20px!important;
-    background-color: #00BFFF;
-}
-
-.bloc-exp {
-    background-color: #24445C;
-}
-
-.title-competence {
-    margin-bottom: 5%;
-}
-
-.title-language {
-    text-align: center;
-    color: beige;
-    margin-bottom: 2%;
-}
-
-.bloc-front-end {
+#bloc-home {
     background-color: white;
-    margin-right: 20px;
-    border: 2px solid white;
-    box-shadow: 0px 0px 20px 0px;
-    margin-bottom: 2%;
-    height: 468.733px;
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 5px;
 }
 
-.title-front-end {
+.para-subtitle {
     font-size: 25px;
 }
 
-.bloc-back-end {
-    background-color: white;
-    margin-right: 20px;
-    border: 2px solid white;
-    box-shadow: 0px 0px 20px 0px;
-    height: 468.733px;
-}
-
-.title-back-end {
+.para-index {
     font-size: 25px;
 }
 
-#body_c-f-e {
-    background-color: #03224C;
+h3 span {
+    position: relative;
+    top: 20px;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    font-size: 60px;
+    color: #FFF;
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 1160px) {
+    h3 span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h3 span {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    h3 span {
+        font-size: 20px;
+    }
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 50px 25px rgba(0, 0, 0, .2);
+    }
 }
 
 
-/* test title */
+/* ************************************* Page compétence-formation-experience ******************************************** */
 
 .decorative-title {
     margin-top: -35px;
@@ -582,10 +574,58 @@ footer {
     color: red;
 }
 
-.msg-error {
-    margin-left: 45px;
+.img-comp {
+    max-width: 80px !important;
 }
 
-.msg-msg-error {
-    margin-left: 42px;
+.bloc-course {
+    margin-bottom: -20px !important;
+    background-color: #00BFFF;
+}
+
+.bloc-exp {
+    background-color: #24445C;
+}
+
+.title-competence {
+    margin-bottom: 5%;
+}
+
+.title-language {
+    text-align: center;
+    color: beige;
+    margin-bottom: 2%;
+}
+
+.bloc-front-end {
+    background-color: white;
+    margin-right: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 0px;
+    margin-bottom: 2%;
+    height: 468.733px;
+}
+
+.title-front-end {
+    font-size: 25px;
+}
+
+.bloc-back-end {
+    background-color: white;
+    margin-right: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 0px;
+    height: 468.733px;
+}
+
+.title-back-end {
+    font-size: 25px;
+}
+
+#bloc-3 {
+    margin-bottom: -30px !important;
+}
+
+#bloc-2 {
+    margin-bottom: -20px !important;
 }

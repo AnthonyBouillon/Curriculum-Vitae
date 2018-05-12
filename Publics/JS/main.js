@@ -6,44 +6,50 @@ var instance = M.Dropdown.init(elem);
 
 // Affiche l'heure complète qui sera affiché dans la page project
 // On récupère et on assigne notre id dans une variable
-var id_hour = document.getElementById('hour');
+if (document.getElementById('hour') != null) {
+    var id_hour = document.getElementById('hour');
 
-function actualiser() {
-    /* On instancie notre objet Date qui nous permet de récupéré grâce aux fonction de l'objet, l'heure complète ou la date */
-    var date = new Date();
-    /* On récupère l'heure */
-    var hour = date.getHours();
-    /* On récupère les minutes, mais si les minutes sont inférieur à 10, on ajoute un 0 devant (14h5min = 14h05min) */
-    var minutes = ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
-    /* Pareil pour les secondes */
-    var seconds = ':' + (date.getSeconds() < 10 ? '0' : '') + date.getSeconds();
-    // On affiche le résultat entre les balises qui contientt l'id "hour"
-    id_hour.innerHTML = hour + minutes + seconds;
+    function actualiser() {
+        /* On instancie notre objet Date qui nous permet de récupéré grâce aux fonction de l'objet, l'heure complète ou la date */
+        var date = new Date();
+        /* On récupère l'heure */
+        var hour = date.getHours();
+        /* On récupère les minutes, mais si les minutes sont inférieur à 10, on ajoute un 0 devant (14h5min = 14h05min) */
+        var minutes = ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
+        /* Pareil pour les secondes */
+        var seconds = ':' + (date.getSeconds() < 10 ? '0' : '') + date.getSeconds();
+        // On affiche le résultat entre les balises qui contientt l'id "hour"
+        id_hour.innerHTML = hour + minutes + seconds;
+    }
+    // La fonction s'actualise dès que possible
+    setInterval(actualiser, 0);
 }
-// La fonction s'actualise dès que possible
-setInterval(actualiser, 0);
+
+
+
 
 /* Affichage la date complète qui seraa affiché dans la page project */
 // On récupère et on assigne notre id dans une variable
-var id_date = document.getElementById('date');
-// On instancie l'objet Date() dans une variable
-var now = new Date();
-// Cette fonction permet de retourner le jour du mois 
-var simple_day = now.getDate();
-// On stipule que si la date du jour est inférieur à 10, on ajoute un 0 devant (5 = 05)
-var condition = now.getDate() < 10 ? '0' : '';
-// On ajoute notre condition au jour du mois
-var day = condition + simple_day;
-// Cette fonction permet de retourner le mois courant, mais il commence à 0, donc on ajoute +1
-var simple_month = now.getMonth() + 1;
-// Même condition que la précédente
-var condition = now.getMonth() < 10 ? '0' : '';
-var month = condition + simple_month;
-// Cette fonction permet de récupérer l'année courante en entier
-var year = now.getFullYear();
-// A l'affichage on assigne le jour, le mois et l'année courante
-id_date.innerHTML = day + "/" + month + "/" + year + " à ";
-
+if (document.getElementById('hour') != null) {
+    var id_date = document.getElementById('date');
+    // On instancie l'objet Date() dans une variable
+    var now = new Date();
+    // Cette fonction permet de retourner le jour du mois 
+    var simple_day = now.getDate();
+    // On stipule que si la date du jour est inférieur à 10, on ajoute un 0 devant (5 = 05)
+    var condition = now.getDate() < 10 ? '0' : '';
+    // On ajoute notre condition au jour du mois
+    var day = condition + simple_day;
+    // Cette fonction permet de retourner le mois courant, mais il commence à 0, donc on ajoute +1
+    var simple_month = now.getMonth() + 1;
+    // Même condition que la précédente
+    var condition = now.getMonth() < 10 ? '0' : '';
+    var month = condition + simple_month;
+    // Cette fonction permet de récupérer l'année courante en entier
+    var year = now.getFullYear();
+    // A l'affichage on assigne le jour, le mois et l'année courante
+    id_date.innerHTML = day + "/" + month + "/" + year + " à ";
+}
 
 
 /* Formulaire de contact */

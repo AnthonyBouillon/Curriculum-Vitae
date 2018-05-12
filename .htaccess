@@ -6,6 +6,7 @@ RewriteRule ^Liste-des-projets$ Views/project.php [L]
 RewriteRule ^Certificats-d'openclassroom$ Views/openclassroom-certificate.php [L] 
 RewriteRule ^Accueil$ index.php [L] 
 RewriteRule ^Compétence-Formation-Experience$ Views/c-f-e.php [L] 
+RewriteRule ^cv-format-pdf$ Publics/IMG/Anthony-Bouillon_CV.pdf [L] 
 # Si erreur, redirection vers la page correspondant
 ErrorDocument 400 /CV/Error-page/error.php?error=400
 ErrorDocument 403 /CV/Error-page/error.php?error=403
@@ -16,3 +17,5 @@ ErrorDocument 502 /CV/Error-page/error.php?error=502
 ErrorDocument 503 /CV/Error-page/error.php?error=503
 ErrorDocument 504 /CV/Error-page/error.php?error=504
 ErrorDocument 505 /CV/Error-page/error.php?error=505
+
+
