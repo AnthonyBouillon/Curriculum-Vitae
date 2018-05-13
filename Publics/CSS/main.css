@@ -284,7 +284,8 @@ table.spreadsheet tbody tr:hover td {
 /* ************************************* CSS du header *********************************************************** */
 
 header {
-    background: beige;
+    background: linear-gradient(0.25turn, beige, beige, #02335A);
+    opacity: 0.9;
     color: black;
 }
 
