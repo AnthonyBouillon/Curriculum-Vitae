@@ -12,7 +12,7 @@ fseek($file_txt, 0);
 fwrite($file_txt, $number_views); 
 // PHP ferme automatiquement le fichier.
 // On affiche le nombre de vue d'une page.
-$count_views = 'Cette page a été vue ' . $number_views . ' fois !';
+$count_views = 'Cette page a été vues : ' . $number_views . ' fois';
 /*
  * Instancie l'objet visitors().
  * Assigne l'adresse ip dans l'attribut ip de l'objet visitors().
@@ -44,8 +44,8 @@ $visitors->deleteVisitors();
  * sinon visitors avec un "S".
  */
 if ($visitors->countIp() == 1){
-    $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteur en ligne';
+    $number_visitors = 'Visiteur en ligne : ' . $visitors->countIp();
 }else{
-    $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteurs en ligne';
+    $number_visitors = 'Visiteurs en ligne : ' . $visitors->countIp();
 }
 

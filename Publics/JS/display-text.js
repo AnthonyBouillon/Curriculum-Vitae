@@ -5,13 +5,13 @@
  * puis on assigne un compteur démarrant a 0 dans une variable
  */
 var text1 = "Informations complémentaires";
-var text2 = 'N\'hésitez pas à me contacter, quelle que soit la raison, je vous répondrez aussitôt que j\'aurai lu votre mail.';
+var text2 = 'N\'hésitez pas à me contacter, quelle que soit la raison, vous obtiendrez une réponse dans les plus brefs délais.';
 var text_para_contact1 = 'Mes coordonnées';
-var text_para_contact2 = 'Région : Haut de france;';
-var text_para_contact3 = 'Ville : Le Plessis-Brion;';
+var text_para_contact2 = 'Région : Haut de france';
+var text_para_contact3 = 'Ville : Le Plessis-Brion';
 var text_para_contact4 = 'Code postal : 60150';
-var text_para_contact5 = 'E-mail : anthony-bouillon@outlook.fr;';
-var text_para_contact6 = 'Numéro : 06-49-70-52-50';
+var text_para_contact5 = 'E-mail : anthony-bouillon@outlook.fr';
+var text_para_contact6 = 'Numéro : 06.49.70.52.50';
 var cmpt1 = 0;
 var cmpt2 = 0;
 var cmpt3 = 0;

@@ -24,7 +24,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-front-end">Front-end</h4><hr/><br/><br/>
+                    <h4 class="center-align title-front-end bold">Front-end</h4><hr/><br/><br/>
                 </div>
                 <!-- bloc d'une compétence -->
                 <div class="row">
@@ -34,7 +34,7 @@ include_once 'header.php';
                     </div>
                     <!-- Barre de progression -->
                     <div class="col s8">
-                        <p class="center-align">HTML</p>
+                        <p class="center-align">HTML : Moyen</p>
                         <div class="progress">
                             <div class="determinate" style="width: 70%"></div>
                         </div>
@@ -49,7 +49,7 @@ include_once 'header.php';
                     </div>
                     <!-- Barre de progression -->
                     <div class="col s8">
-                        <p class="center-align">CSS</p>
+                        <p class="center-align">CSS : Moyen</p>
                         <div class="progress">
                             <div class="determinate" style="width: 60%"></div>
                         </div>
@@ -77,7 +77,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 xl5 bloc-back-end">
                 <!-- Titre du bloc back-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-back-end">Back-end</h4><hr/><br/><br/>
+                    <h4 class="center-align title-back-end bold">Back-end</h4><hr/><br/><br/>
                 </div>
                 <div class="row">
                     <!-- bloc image -->
@@ -114,13 +114,13 @@ include_once 'header.php';
         <div class="col s12 m12 l12 xl6">
             <!-- Sous-titre de la catégorie language -->
             <div class="col s12 title-language">
-                <h3>Framework et librairie</h3>
+                <h3>Framework / librairie</h3>
             </div>
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-front-end">Front-end</h4><hr/><br/><br/>
+                    <h4 class="center-align title-front-end bold">Front-end</h4><hr/><br/><br/>
                 </div>
                 <!-- bloc d'une compétence -->
                 <div class="row">
@@ -173,7 +173,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 xl5 bloc-back-end">
                 <!-- Titre du bloc back-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-back-end">Back-end</h4><hr/><br/><br/>
+                    <h4 class="center-align title-back-end bold">Back-end</h4><hr/><br/><br/>
                 </div>
                 <div class="row">
                     <!-- Barre de progression -->
@@ -209,7 +209,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-front-end">Système d'exploitation</h4><hr/><br/><br/>
+                    <h4 class="center-align title-front-end bold">Système d'exploitation</h4><hr/><br/><br/>
                 </div>
                 <!-- bloc d'une compétence -->
                 <div class="row">
@@ -247,7 +247,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 xl5 bloc-back-end">
                 <!-- Titre du bloc back-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-back-end">Editeur de texte</h4><hr/><br/><br/>
+                    <h4 class="center-align title-back-end bold">Editeur de texte</h4><hr/><br/><br/>
                 </div>
                 <div class="row">
                     <!-- bloc image -->
@@ -290,7 +290,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
                 <!-- Titre du bloc front-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-front-end">Outil</h4><hr/><br/><br/>
+                    <h4 class="center-align title-front-end bold">Outil</h4><hr/><br/><br/>
                 </div>
                 <!-- bloc d'une compétence -->
                 <div class="row">
@@ -328,7 +328,7 @@ include_once 'header.php';
             <div class="col s12 m12 l5 xl5 bloc-back-end">
                 <!-- Titre du bloc back-end -->
                 <div class="col s12">
-                    <h4 class="center-align title-back-end">Site web</h4><hr/><br/><br/>
+                    <h4 class="center-align title-back-end bold">Site web</h4><hr/><br/><br/>
                 </div>
                 <div class="row">
                     <!-- bloc image -->
@@ -374,7 +374,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/diplome.jpg" alt="Image de diplômés" class="responsive-img" />
                     </div>
                     <div class="card-content">
-                        <p class="bold">Obtention du titre professionnel "Développeur logiciel" de niveau III.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                        <p class="bold">Obtention du titre professionnel "Développeur logiciel" de niveau III<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Date de l'obtention : 17/04/2018</p>
@@ -387,7 +387,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/certificate.jpg" alt="Logo officiel d'opquast" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Obtention du certificat <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                        <p class="bold">Obtention du certificat <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Validité : 08/12/2017 au 08/12/2022</p>
@@ -400,7 +400,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/course.png" alt="Image de gens en formation" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Formation de développeur web afin de preparer le titre professionnel<br/> « Développeur-se logiciel TP01280 » Niveau III équivalent BAC+2.<br/><br/><em>Chez E2N à Noyon | Campus Inovia</em></p>
+                        <p class="bold">Formation de développeur web afin de preparer le titre professionnel<br/> « Développeur-se logiciel TP01280 » Niveau III équivalent BAC+2<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Durée : 09/09/2017 au 06/04/2018, 840 heures</p>
@@ -411,7 +411,7 @@ include_once 'header.php';
     </div>
     <div class="row bloc-exp"  id="bloc-3">
         <div class="decorative-title">
-            <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE <a href="#top"><i class="fa fa-arrow-up" title="Remonter vers le haut de la page"></i></a></h2>
+            <h2 id="title-exp">EXPERIENCE PROFESSIONNELLE</h2>
         </div>
         <div class="row">
             <div class="col s12 m6 l6 xl4">
@@ -420,7 +420,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/sv.jpg" alt="Image d'un tableau avec comme écriture : service civique" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Service civique.<br/><br/><em>Chez le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
+                        <p class="bold">Service civique<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Durée : 3 mois en 2017</p>
@@ -433,7 +433,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/trade.png" alt="Image de commerciaux" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Gestionnaire de la relation client.<br/><br/><em>Chez L'2PHONE à Villers-Saint-Paul</em></p>
+                        <p class="bold">Gestionnaire de la relation client<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> L'2PHONE à Villers-Saint-Paul</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Durée : 7 mois en 2016 </p>
@@ -446,7 +446,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/building.jpg" alt="Image d'agent polyvalent du batîment" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Agent polyvalent du batîment.<br/><br/><em>Chez Elan ces à Noyon</em></p>
+                        <p class="bold">Agent polyvalent du batîment<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> Elan ces à Noyon</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Durée : 16 mois en 2013-2015</p>
@@ -459,4 +459,3 @@ include_once 'header.php';
 <!-- Fin du contenu -->
 <?php
 include_once 'footer.php';
- 

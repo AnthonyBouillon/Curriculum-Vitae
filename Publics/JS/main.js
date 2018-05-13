@@ -106,7 +106,7 @@ function validate_Form() {
      * sinon,
      * return false = le champ ne peut pas être soumis et l'envoi du formulaire est bloqué
      */
-    if (name.value != '' && first_name.value != '' && mail.value != '' && subject.value != '' && text.value != '' && expressionReguliere.test(mail.value)) {
+    if (name.value != '' && first_name.value != '' && mail.value != '' && subject.value != '' && text.value != '') {
         return true;
     } else {
         return false;

@@ -10,11 +10,11 @@ $body = 'body_home';
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Curriculum vitae numérique - Anthony Bouillon - Développeur web full-stack (HTML/CSS/JS et PHP), (Bootstrap, materialize, jQuery)">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="description" content="Curriculum vitae numérique - Anthony Bouillon - Développeur web junior full-stack (HTML/CSS/JS et PHP), (Bootstrap, materialize, jQuery)" />
+        <link rel="stylesheet" href="Publics/LIB/materialize/css/materialize.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="Publics/CSS/main.css" rel="stylesheet" />
+        <link href="Publics/CSS/main.min.css" rel="stylesheet" />
         <title><?= $title ?></title>
     </head> 
     <body id="<?= $body ?>">
@@ -42,21 +42,25 @@ $body = 'body_home';
             <ul class="sidenav" id="mobile-demo">
                 <li><a href="Accueil">Accueil</a></li>
                 <li><a href="Compétence-Formation-Experience">Compétences</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="Liste-des-projets">Projets</a></li>
                 <li><a href="cv-format-pdf">CV au format PDF</a></li>
                 <li><a href="Certificats-d'openclassroom">Openclassroom</a></li>
+                <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>
         <!-- Contenu -->
         <div class="container">
             <section id="bloc-home">
                 <div class="row">
-                    <h2 class="center-align">Bonjour à vous</h2>
-                    <p class="para-subtitle col s11 offset-s1">Avant toute chose voici ce que vous devez savoir <i class="fa fa-arrow-down"></i></p>
+                    <h2 class="center-align">Bonjour à tous !</h2>
+                    <p class="para-subtitle col s11 offset-s1">&nbsp;&nbsp;&nbsp;&nbsp;Avant toutes choses, voici ce que vous devez savoir...</p>
                 </div>
                 <div class="row">
-                    <p class="para-index col s11 offset-s1">Ayant obtenu depuis peu le titre professionnel « <strong>Développeur-se logiciel TP01280</strong> » Niveau III.<br/>Je suis actuellement à la recherche d'un <strong>contrat de professionnalisation</strong> pour poursuivre en licence (BAC+3/4).<br/><br/>Alors, si après votre visite, vous pensez que je peux correspondre au profil, contactez-moi  via le formulaire de <a href="Contact" title="Lien redirigeant vers un formulaire de contact">contact</a> :)</p>
+                    <p class="para-index col s11 offset-s1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Ayant obtenu le titre professionnel « <strong class="bold">Développeur-se logiciel TP01280</strong> » Niveau III,
+                        <br/>je suis actuellement à la recherche d'un <strong>contrat de professionnalisation</strong> afin de poursuivre ma formation en licence BAC+(3/4).
+                        <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Après votre visite, si mon profil correspond à vos attentes, contactez-moi via le <a href="Contact" title="Lien redirigeant vers un formulaire de contact">formulaire</a> :)
+                    </p>
                 </div>
             </section>
             <div class="row">
@@ -91,30 +95,58 @@ $body = 'body_home';
         </div>
         <!-- Fin du contenu -->
         <footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <!-- Taille du premier bloc -->
-                    <div class="col s12 m12 l6 offset-l1 xl6 offset-xl1 headshot">
-                        <h3 class="black-text" id="h3-name">Anthony BOUILLON</h3>
-                        <!-- Image de profil -->
-                        <img class="responsive-img img-profile" id="img-display" src="http://formation.novei.fr/assets/images/promo3/anthony.jpg" title="Photo de profil" alt="Photo">
-                        <p class="white-text text-lighten-4 bold para-footer">Haut de france; Le Plessis-Brion, 60150; anthony-bouillon@outlook.fr; 06-49-70-52-50</p>
-                        <!-- Icones des réseaux sociaux -->
-                        <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthony-bouillon-44313a151/" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"><i class="fa fa-linkedin" alt="Logo linkedin"></i></a>
-                        <a class="grey-text text-lighten-3" href="https://twitter.com/_Ant_ho_ny_" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"><i class="fa fa-twitter" alt="Logo twitter"></i></a>
-                        <a class="grey-text text-lighten-3" href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a> 
+            <div class="row">
+                <!-- Taille du premier bloc -->
+                <div class="col s12 m12 l6 offset-l1 xl6 offset-xl1 headshot bloc-footer">
+                    <div class="row">
+                        <div class="col s12">
+                            <h3 class="black-text center-align" id="h3-name">Anthony BOUILLON</h3>
+                        </div>
                     </div>
-                    <!-- Taille du deuxième bloc -->
-                    <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl1 headshot headshot-1">
-                        <h3 class="white-text center-align" id="h3-info">Information</h3> 
-                        <p id="para-counter"><?= $count_views ?><br/><?= $number_visitors ?></p>
+                    <div class="row margin-bottom">
+                        <div class="col s1">
+                            <i class="fa fa-address-card" aria-hidden="true"></i>
+                        </div>
+                        <div class="col s8">
+                            <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion, 60150</span>
+                        </div>
+                        <div class="col s1 offset-s2">
+                            <a href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a>
+                        </div>
                     </div>
+                    <div class="row margin-bottom">
+                        <div class="col s1">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="col s8">
+                            <span class="white-text text-lighten-4 bold para-footer">anthony-bouillon@outlook.fr</span>
+                        </div>
+                        <div class="col s1 offset-s2">
+                            <a href="https://www.linkedin.com/in/anthony-bouillon-44313a151/" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"><i class="fa fa-linkedin" alt="Logo linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom">
+                        <div class="col s1">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col s8">
+                            <span class="white-text text-lighten-4 bold para-footer">06.49.70.52.50</span>
+                        </div>
+                        <div class="col s1 offset-s2">
+                            <a href="https://twitter.com/_Ant_ho_ny_" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"><i class="fa fa-twitter" alt="Logo twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Taille du deuxième bloc -->
+                <div class="col s12 m4 offset-m1 l2 offset-l1 xl2 offset-xl2 headshot headshot-1 bloc2-footer">
+                    <h3 class="white-text center-align" id="h3-info">Information</h3> 
+                    <p id="para-counter"><?= $count_views ?><br/><?= $number_visitors ?></p>
                 </div>
             </div>
         </footer>
         <!-- Librairie materialize, le script javascript principale et le second -->
         <script src="Publics/LIB/materialize/js/materialize.min.js"></script>
-        <script src="Publics/JS/main.js"></script>
-        <script src="Publics/JS/display-text.js"></script>
+        <script src="Publics/JS/main.min.js"></script>
+        <script src="Publics/JS/display-text.min.js"></script>
     </body>
 </html> 

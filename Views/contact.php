@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
 include_once '../Controllers/contact-controller.php';
@@ -67,14 +67,14 @@ include_once 'header.php';
             </div>
         </form>
         <aside class="col s12 m12  l4 offset-l1 xl4 push-xl2 bloc-info">
-            <h2 class="titleStyle title_info_more" id="title_contact"></h2>
-            <p id="para_contact"></p>
-            <p id="para_contact1" class="center-align"></p>
-            <p id="para_contact2"></p>
-            <p id="para_contact3"></p>
-            <p id="para_contact4"></p>
-            <p id="para_contact5"></p>
-            <p id="para_contact6"></p>
+            <h2 class="titleStyle title_info_more center-align" id="title_contact"></h2>
+            <p id="para_contact">&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p id="para_contact1" class="center-align bold"></p>
+            <p id="para_contact2" class="center-align"></p>
+            <p id="para_contact3" class="center-align"></p>
+            <p id="para_contact4" class="center-align"></p>
+            <p id="para_contact5" class="center-align"></p>
+            <p id="para_contact6" class="center-align"></p>
         </aside>
     </div>
 </section>

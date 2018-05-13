@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once '../Models/database.php';
 include_once '../Models/visitors.php';
 include_once '../Controllers/project-controller.php';
@@ -25,7 +25,9 @@ include_once 'header.php';
                 <th scope="row" class="text-align number_th">1</th> 
                 <td class="first_td"><abbr title="All Plateform Together" lang="en">APT</abbr></td>
                 <td class="second_td">Hébergé-><i class="fa fa-times" title="Projet non hébergé" alt="Projet non hébergé"></i><br/><a href="https://github.com/AnthonyBouillon/projet_professionnel" class="bold" id="link_project_1" title="Répertoire sur github">Répertoire github</a></td>
-                <td class="third_td">Ce projet a était conçu dans le cadre de l'examen final pour l'obtention du titre professionnel.<br/>L'objectif était de : Développer une application client-serveur et une application web complète (CRUD).<br/>J'ai donc pour ça utilisé HTML/CSS et le JavaScript pour le coté client et le PHP et SQL pour le coté serveur avec la base de données MySQL.</td>
+                <td class="third_td">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Ce projet a était conçu dans le cadre de l'examen final pour l'obtention du titre professionnel. L'objectif était de : Développer une application client-serveur et une application web complète (CRUD). J'ai donc pour ça utilisé HTML/CSS et le JavaScript pour le coté client et le PHP et SQL pour le coté serveur avec la base de données MySQL.
+                </td>
                 <td class="fourth_td">
                     <p class="text-left">Espace membres</p>
                     <p class="text-left">Fil d'actualités</p>
@@ -36,9 +38,12 @@ include_once 'header.php';
             </tr>
             <tr onmouseover="mouseover2()" onmouseout="mouseout2()">
                 <th scope="row" class="text-align number_th">2</th>
-                <td class="first_td">Memento</td>
+                <td class="first_td">Mémento</td>
                 <td class="second_td">Hébergé-><a href="https://memento-dev-web.000webhostapp.com/Memento/Html" class="bold" id="link_project_2" title="Redirection vers un site web">Site web</a><br/><a href="https://github.com/AnthonyBouillon/Memento" class="bold" id="link_project_3" title="Répertoire sur github">Répertoire github</a></td>
-                <td class="third_td">Ce memento a était conçu pour éviter de devoir créer des dossiers, sous-dossier et des tas de fichiers sur notre ordinateur.<br/>Même si nos dossier sont bien organisés, au bout d'un certain nombre, on finit par ci perdre.<br/>C'est donc pour cette raison que j'ai créé un gestionnaire de note avec la possibilité, d'ajouter, modifier, supprimer et ranger des notes dans leurs catégories.</td>
+                <td class="third_td">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Ce mémento a était créé, car j'ai l'habitude de créer des notes sur mon bureau. Malgré l'ordonnancement et l'organisation de mes notes, à la longue, ça créées un <abbr title="Vient du latin, synonyme de bazard">cafaro hom</abbr>.<br/>&nbsp;&nbsp;&nbsp;&nbsp;C'est pour cette raison que le gestionnaire de note en ligne qui permet :  <span class="bold">d'ajouter, modifier, supprimer et ranger des notes</span> dans leurs catégories a était créé.
+
+                </td>
                 <td class="fourth_td">
                     <p class="text-align">Gestions de notes</p>
                 </td>
@@ -48,11 +53,12 @@ include_once 'header.php';
                 <th scope="row" class="text-align number_th">3</th>
                 <td class="first_td">CV numérique #1</td>
                 <td class="second_td">Hébergé-><a href="https://anthonybouillon.github.io/" class="bold" id="link_project_4" title="Redirection vers un site web">Site web</a><br/><a href="https://github.com/AnthonyBouillon/AnthonyBouillon.github.io" class="bold" id="link_project_5" title="Répertoire sur github">Répertoire github</a></td>
-                <td class="third_td">Ce cv numérique a était conçu dans le cadre d'un exercice en formation, l'objectif était qu'il soit responsive pour tout support, à l'aide du framework bootstrap. </td>
+                <td class="third_td">&nbsp;&nbsp;Ce CV numérique a était conçu dans le cadre d'un exercice lors de la formation, dont l'objectif était qu'il soit responsive pour tout support, à l'aide du framework bootstrap. </td>
                 <td class="fourth_td text-align"><i class="fa fa-times" title="Projet non hébergé" alt="Projet non hébergé"></i></td>
                 <td class="fifth_td">26/10/2017</td>
             </tr>
         </tbody>
     </table>
 </div>
-<?php include_once 'footer.php';
+<?php
+include_once 'footer.php';

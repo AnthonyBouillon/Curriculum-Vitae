@@ -49,6 +49,10 @@ footer {
     }
 }
 
+#para_contact1 {
+    margin-bottom: 15%;
+}
+
 section {
     margin-top: 0.7%;
 }
@@ -113,6 +117,10 @@ button {
 
 
 /* ************************************* Page project ************************************************************ */
+
+#link-top-project {
+    margin-left: 25%;
+}
 
 table {
     margin-bottom: 5%;
@@ -182,7 +190,6 @@ td {
 table.spreadsheet tbody tr:hover td {
     background-color: teal;
     color: white;
-    font-weight: bold;
 }
 
 #title_project {
@@ -346,6 +353,20 @@ footer {
     margin-top: 1% !important;
 }
 
+.bloc2-footer {
+    margin-top: 3% !important;
+}
+
+.margin-bottom {
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width: 600px) {
+    .margin-bottom {
+        margin-bottom: 0px;
+    }
+}
+
 .para-footer {
     text-transform: uppercase;
 }
@@ -354,7 +375,7 @@ footer {
     padding-top: 0px !important;
     margin-top: 0px !important;
     font-size: 30px;
-    text-align: left;
+    font-weight: bold;
 }
 
 #h3-info {
@@ -368,40 +389,39 @@ footer {
     padding-left: 5px;
     margin-top: 0;
     color: white;
+    margin-left: 30px;
 }
 
 .fa-linkedin {
-    color: white;
+    color: blue;
     font-size: 30px;
-    margin-right: 2%;
-    padding: 5px;
-}
-
-.fa-linkedin:hover {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-    padding: 5px;
-}
-
-.fa-twitter {
-    color: white;
-    font-size: 30px;
-    margin-right: 2%;
-    padding: 5px;
-}
-
-.fa-twitter:hover {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
     padding: 5px;
 }
 
 .fa-github {
-    color: white;
+    color: blue;
     font-size: 30px;
     padding: 5px;
 }
 
+.fa-twitter {
+    color: blue;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.fa-linkedin:hover {
+    color: white;
+    padding: 5px;
+}
+
+.fa-twitter:hover {
+    color: white;
+    padding: 5px;
+}
+
 .fa-github:hover {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
     padding: 5px;
 }
 
@@ -413,6 +433,24 @@ footer {
 
 .fa-times:hover {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.fa-address-card {
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.fa-envelope {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-phone {
+    color: black;
+    font-size: 20px;
     padding: 5px;
 }
 
@@ -438,6 +476,10 @@ footer {
 
 .card-content {
     height: 120px;
+}
+
+.card-action a {
+    color: #039be5!important;
 }
 
 
@@ -476,12 +518,13 @@ footer {
     background-color: white;
     border-radius: 10%;
     margin-top: 5%;
-    margin-bottom: 3%;
     padding: 5px;
 }
 
 .para-subtitle {
     font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 0px;
 }
 
 .para-index {

@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Curriculum vitae numérique - Anthony Bouillon - Développeur web junior full-stack (HTML/CSS/JS et PHP), (Bootstrap, materialize, jQuery)" />
         <link rel="stylesheet" href="Publics/LIB/materialize/css/materialize.min.css" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="Publics/CSS/main.css" rel="stylesheet" />
+        <link href="Publics/CSS/main.min.css" rel="stylesheet" />
         <title><?= $title ?></title>
     </head> 
     <body id="<?= $body ?>">
@@ -34,9 +35,9 @@
             <ul class="sidenav" id="mobile-demo">
                 <li><a href="Accueil">Accueil</a></li>
                 <li><a href="Compétence-Formation-Experience">Compétences</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="Liste-des-projets">Projets</a></li>
                 <li><a href="cv-format-pdf">CV au format PDF</a></li>
                 <li><a href="Certificats-d'openclassroom">Openclassroom</a></li>
+                <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>

@@ -12,7 +12,7 @@ fseek($file_txt, 0);
 fwrite($file_txt, $number_views); 
 // PHP ferme automatiquement le fichier.
 // On affiche le nombre de vue d'une page.
-$count_views = 'Cette page a été vue ' . $number_views . ' fois !';
+$count_views = 'Cette page a été vues : ' . $number_views . ' fois';
 /*
  * Instancie l'objet visitors().
  * Assigne l'adresse ip dans l'attribut ip de l'objet visitors().
@@ -44,9 +44,9 @@ $visitors->deleteVisitors();
  * sinon visitors avec un "S".
  */
 if ($visitors->countIp() == 1){
-    $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteur en ligne';
+    $number_visitors = 'Visiteur en ligne : ' . $visitors->countIp();
 }else{
-    $number_visitors = 'Il y a ' . $visitors->countIp() . ' visiteurs en ligne';
+    $number_visitors = 'Visiteurs en ligne : ' . $visitors->countIp();
 }
 
 // Assigne un tableau vide dans une variable, cela servira à personnaliser les messages d'erreurs et de succès.
@@ -103,7 +103,7 @@ if(isset($_POST['submit_mail'])){
      * assigne le sujet, le message et l'adresse e-mail de l'utilisateur.
      */ 
     if(count($error) === 0){
-        $to      = 'anthonybouilloncontact@gmail.com';
+        $to      = 'anthony-bouillon@outlook.fr';
         $subject = $_POST['subject'];
         $message = $_POST['text'];
         $headers = $_POST['mail'];
@@ -117,7 +117,7 @@ if(isset($_POST['submit_mail'])){
         if(mail($to, $subject, $message, $headers)){
             $success['send_mail'] = 'Votre mail a était envoyez avec succès !';
         }else{
-            $error['fail_mail'] = 'Malheureusement le mail n\'a pas put être envoyé';
+            $error['fail_mail'] = 'Malheureusement le mail n\'a pas put être envoyé, réessayez plus tard';
         }
     }
 }
