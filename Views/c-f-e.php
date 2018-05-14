@@ -114,7 +114,7 @@ include_once 'header.php';
         <div class="col s12 m12 l12 xl6">
             <!-- Sous-titre de la catégorie language -->
             <div class="col s12 title-language">
-                <h3>Framework / librairie</h3>
+                <h3>Framework / Librairie</h3>
             </div>
             <!-- Début du bloc front-end -->
             <div class="col s12 m12 l5 offset-l1 xl5 offset-xl1 bloc-front-end">
@@ -374,7 +374,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/diplome.jpg" alt="Image de diplômés" class="responsive-img" />
                     </div>
                     <div class="card-content">
-                        <p class="bold">Obtention du titre professionnel "Développeur logiciel" de niveau III<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
+                        <p class="bold">Obtention du titre professionnel "Développeur logiciel" de niveau III<br/><br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Date de l'obtention : 17/04/2018</p>
@@ -387,7 +387,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/certificate.jpg" alt="Logo officiel d'opquast" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Obtention du certificat <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
+                        <p class="bold">Obtention du certificat <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points<br/><br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Validité : 08/12/2017 au 08/12/2022</p>
@@ -420,7 +420,7 @@ include_once 'header.php';
                         <img src="Publics/IMG/icon/sv.jpg" alt="Image d'un tableau avec comme écriture : service civique" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p class="bold">Service civique<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> le théâtre de l'éveil à Cambrones-les-ribécourt</em></p>
+                        <p class="bold">Service civique<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> Le théâtre de l'éveil à Cambronnes-lès-Ribécourt</em></p>
                     </div>
                     <div class="card-action">
                         <p class="bold">Durée : 3 mois en 2017</p>

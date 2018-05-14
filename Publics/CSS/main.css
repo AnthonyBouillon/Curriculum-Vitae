@@ -50,7 +50,8 @@ footer {
 }
 
 #para_contact1 {
-    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-bottom: 12%;
 }
 
 section {
@@ -133,7 +134,7 @@ table.spreadsheet {
 table.spreadsheet caption {
     font-size: larger;
     font-weight: bold;
-    background-color: aqua;
+    background-color: #1E90FF;
     color: #000435;
     padding: 0.8em;
     caption-side: bottom;
@@ -188,7 +189,7 @@ td {
 }
 
 table.spreadsheet tbody tr:hover td {
-    background-color: teal;
+    background-color: #007FFF;
     color: white;
 }
 
@@ -536,7 +537,7 @@ h3 span {
     top: 20px;
     animation: bounce .3s ease infinite alternate;
     font-family: 'Titan One', cursive;
-    font-size: 60px;
+    font-size: 50px;
     color: #FFF;
     text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, .4);
 }

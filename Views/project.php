@@ -7,7 +7,7 @@ $body = 'body_project';
 include_once 'header.php';
 ?>
 <div class="container">
-    <h2 class="text-align" id="title_project">Liste de mes projets personnel</h2>
+    <h2 class="text-align" id="title_project">Liste de mes projets personnels</h2>
     <table class="spreadsheet">
         <caption>A ce jour le <span id="date"></span><span id="hour"></span> : 3 projets ont était réalisés</caption> 
         <thead>
@@ -26,7 +26,7 @@ include_once 'header.php';
                 <td class="first_td"><abbr title="All Plateform Together" lang="en">APT</abbr></td>
                 <td class="second_td">Hébergé-><i class="fa fa-times" title="Projet non hébergé" alt="Projet non hébergé"></i><br/><a href="https://github.com/AnthonyBouillon/projet_professionnel" class="bold" id="link_project_1" title="Répertoire sur github">Répertoire github</a></td>
                 <td class="third_td">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Ce projet a était conçu dans le cadre de l'examen final pour l'obtention du titre professionnel. L'objectif était de : Développer une application client-serveur et une application web complète (CRUD). J'ai donc pour ça utilisé HTML/CSS et le JavaScript pour le coté client et le PHP et SQL pour le coté serveur avec la base de données MySQL.
+                    &nbsp;&nbsp;&nbsp;&nbsp;Ce projet a était conçu dans le cadre de l'examen final pour l'obtention du titre professionnel.<br/>&nbsp;&nbsp;&nbsp;&nbsp;L'objectif était de : Développer une application client-serveur et une application web complète (CRUD). J'ai donc utilisé HTML/CSS et le JavaScript pour le coté client et le PHP et SQL pour le coté serveur avec la base de données MySQL.
                 </td>
                 <td class="fourth_td">
                     <p class="text-left">Espace membres</p>
@@ -41,7 +41,7 @@ include_once 'header.php';
                 <td class="first_td">Mémento</td>
                 <td class="second_td">Hébergé-><a href="https://memento-dev-web.000webhostapp.com/Memento/Html" class="bold" id="link_project_2" title="Redirection vers un site web">Site web</a><br/><a href="https://github.com/AnthonyBouillon/Memento" class="bold" id="link_project_3" title="Répertoire sur github">Répertoire github</a></td>
                 <td class="third_td">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Ce mémento a était créé, car j'ai l'habitude de créer des notes sur mon bureau. Malgré l'ordonnancement et l'organisation de mes notes, à la longue, ça créées un <abbr title="Vient du latin, synonyme de bazard">cafaro hom</abbr>.<br/>&nbsp;&nbsp;&nbsp;&nbsp;C'est pour cette raison que le gestionnaire de note en ligne qui permet :  <span class="bold">d'ajouter, modifier, supprimer et ranger des notes</span> dans leurs catégories a était créé.
+                    &nbsp;&nbsp;&nbsp;&nbsp;Ce mémento a était créé, car j'ai l'habitude de créer des notes sur mon bureau. Malgré l'ordonnancement et l'organisation de mes notes, à la longue, ça créées un <abbr title="Vient du latin, synonyme de bazard">cafaro hom</abbr>.<br/>&nbsp;&nbsp;&nbsp;&nbsp;C'est pour cette raison que le gestionnaire de note en ligne qui permet :  d'<span class="bold">ajouter</span>, <span class="bold">modifier</span>, <span class="bold">supprimer</span> et <span class="bold">ranger</span> des notes dans leurs catégories a était créé.
 
                 </td>
                 <td class="fourth_td">

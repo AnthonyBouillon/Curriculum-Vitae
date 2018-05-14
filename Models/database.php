@@ -16,11 +16,12 @@ class dataBase {
         } catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());
         }
-    }
+    } 
     /**
-     *  Déconnexion de la base de données
+     *  Déconnexion de la base de données   
      */
     protected function __destruct() {
         $this->db = NULL;
     }
 }
+//            $this->db = new PDO('mysql:host=anthonyblbkarirr.mysql.db;dbname=anthonyblbkarirr;charset=utf8','anthonyblbkarirr','R36c6nuL');

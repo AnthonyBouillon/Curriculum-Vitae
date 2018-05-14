@@ -2,9 +2,9 @@
 include_once 'Models/database.php';
 include_once 'Models/visitors.php';
 include_once 'Controllers/home-controller.php';
-$title = 'CV développeur web - Anthony Bouillon';
+$title = 'CV développeur web junior | Full-stack- Anthony Bouillon';
 $body = 'body_home';
-?>
+?> 
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -53,7 +53,7 @@ $body = 'body_home';
             <section id="bloc-home">
                 <div class="row">
                     <h2 class="center-align">Bonjour à tous !</h2>
-                    <p class="para-subtitle col s11 offset-s1">&nbsp;&nbsp;&nbsp;&nbsp;Avant toutes choses, voici ce que vous devez savoir...</p>
+                    <p class="para-subtitle col s11 offset-s1">&nbsp;&nbsp;&nbsp;&nbsp;Avant toutes choses, voici ce que vous devez savoir ...</p>
                 </div>
                 <div class="row">
                     <p class="para-index col s11 offset-s1">
@@ -63,6 +63,8 @@ $body = 'body_home';
                     </p>
                 </div>
             </section>
+               </div>
+               <div class="container-fluid">
             <div class="row">
                 <h3 class=center-align>
                     <span>B</span>
@@ -108,7 +110,7 @@ $body = 'body_home';
                             <i class="fa fa-address-card" aria-hidden="true"></i>
                         </div>
                         <div class="col s8">
-                            <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion, 60150</span>
+                            <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion</span>
                         </div>
                         <div class="col s1 offset-s2">
                             <a href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a>

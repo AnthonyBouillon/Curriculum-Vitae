@@ -12,7 +12,7 @@
                     <i class="fa fa-address-card" aria-hidden="true"></i>
                 </div>
                 <div class="col s8">
-                    <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion, 60150</span>
+                    <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion</span>
                 </div>
                 <div class="col s1 offset-s2">
                     <a href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a>
