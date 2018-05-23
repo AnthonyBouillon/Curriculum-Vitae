@@ -16,7 +16,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-1.jpg" alt="Image du cours, correspondant au certificat" />
+                    <img src="Publics/IMG/certificate/certificate-1.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -34,7 +34,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-2.jpg" alt="Image du cours, correspondant au certificat" />
+                    <img src="Publics/IMG/certificate/certificate-2.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -52,7 +52,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-3.jpg" alt="Image du cours, correspondant au certificat" />
+                    <img src="Publics/IMG/certificate/certificate-3.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">
@@ -70,7 +70,7 @@ include_once 'header.php';
             <div class="card">
                 <!-- bloc image -->
                 <div class="card-image">
-                    <img src="Publics/IMG/certificate/certificate-4.jpg" alt="Image du cours, correspondant au certificat" />
+                    <img src="Publics/IMG/certificate/certificate-4.png" alt="Image du cours, correspondant au certificat" />
                 </div>
                 <!-- bloc titre du certificat -->
                 <div class="card-content">

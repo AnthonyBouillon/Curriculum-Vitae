@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://anthony-bouillon.fr/</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Accueil</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Comp%C3%A9tence-Formation-Experience</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Liste-des-projets</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Contact</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Certificats-d'openclassroom</loc>
+  <lastmod>2018-05-15T14:57:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-1.pdf</loc>
+  <lastmod>2018-05-14T14:05:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-2.pdf</loc>
+  <lastmod>2018-05-14T14:05:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-3.pdf</loc>
+  <lastmod>2018-05-14T14:05:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-4.pdf</loc>
+  <lastmod>2018-05-14T14:05:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-5.pdf</loc>
+  <lastmod>2018-05-14T14:05:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://anthony-bouillon.fr/Publics/IMG/certificate/certificate-link-6.pdf</loc>
+  <lastmod>2018-05-14T14:05:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

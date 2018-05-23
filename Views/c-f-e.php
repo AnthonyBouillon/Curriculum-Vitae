@@ -82,7 +82,7 @@ include_once 'header.php';
                 <div class="row">
                     <!-- bloc image -->
                     <div class="col s4">
-                        <img src="Publics/IMG/icon/php.svg" alt="PHP" class="img-comp"/>
+                        <img src="Publics/IMG/icon/php.png" alt="PHP" class="img-comp"/>
                     </div>
                     <!-- Barre de progression -->
                     <div class="col s8">
@@ -371,7 +371,7 @@ include_once 'header.php';
             <div class="col s12 m12 l6 xl4"> 	
                 <div class="card">
                     <div class="card-image">
-                        <img src="Publics/IMG/icon/diplome.jpg" alt="Image de diplômés" class="responsive-img" />
+                        <img src="Publics/IMG/icon/diplome.png" alt="Image de diplômés" class="responsive-img" />
                     </div>
                     <div class="card-content">
                         <p class="bold">Obtention du titre professionnel "Développeur logiciel" de niveau III<br/><br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
@@ -384,7 +384,7 @@ include_once 'header.php';
             <div class="col s12 m12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="Publics/IMG/icon/certificate.jpg" alt="Logo officiel d'opquast" class="responsive-img">
+                        <img src="Publics/IMG/icon/certificate.png" alt="Logo officiel d'opquast" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p class="bold">Obtention du certificat <a href="https://certificates.opquast.com/certificate/SVC2I7/">Opquast certified</a> avec 805/1000 points<br/><br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> E2N à Noyon | Campus Inovia</em></p>
@@ -417,7 +417,7 @@ include_once 'header.php';
             <div class="col s12 m6 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="Publics/IMG/icon/sv.jpg" alt="Image d'un tableau avec comme écriture : service civique" class="responsive-img">
+                        <img src="Publics/IMG/icon/sv.png" alt="Image d'un tableau avec comme écriture : service civique" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p class="bold">Service civique<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> Le théâtre de l'éveil à Cambronnes-lès-Ribécourt</em></p>
@@ -443,7 +443,7 @@ include_once 'header.php';
             <div class="col s12 m12 l12 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="Publics/IMG/icon/building.jpg" alt="Image d'agent polyvalent du batîment" class="responsive-img">
+                        <img src="Publics/IMG/icon/building.png" alt="Image d'agent polyvalent du batîment" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p class="bold">Agent polyvalent du batîment<br/><br/><em><i class="fa fa-map-marker" style="font-size:20px;color:red"></i> Elan ces à Noyon</em></p>
