@@ -4,8 +4,10 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Curriculum vitae numérique - Anthony Bouillon - Développeur web junior full-stack (HTML/CSS/JS et PHP), (Bootstrap, materialize, jQuery)" />
-        <link rel="icon" type="image/png" href="Publics/IMG/icon/cv.png" sizes="16x16" />
-        <link rel="Accueil" href="http://www.anthony-bouillon.fr/" />
+        <meta name="keywords" CONTENT="curriculum vitae,cv,développeur web, numérique, contrat de professionnalisation" />
+        <link rel="shortcut icon" href="Publics/IMG/icon/cv.png" type="image/x-icon">
+        <link rel="canonical" href="https://www.anthony-bouillon.fr/" />
+        <link rel="alternate" href="https://www.anthony-bouillon.fr" hreflang="fr-fr" />
         <link rel="stylesheet" href="Publics/LIB/materialize/css/materialize.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />

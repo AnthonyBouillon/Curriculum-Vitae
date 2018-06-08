@@ -11,8 +11,10 @@ $body = 'body_home';
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Curriculum vitae numérique - Anthony Bouillon - Développeur web junior full-stack (HTML/CSS/JS et PHP), (Bootstrap, materialize, jQuery)" />
-        <link rel="icon" type="image/png" href="Publics/IMG/icon/cv.png" sizes="16x16" />
-        <link rel="Accueil" href="http://www.anthony-bouillon.fr/" />
+        <meta name="keywords" CONTENT="curriculum vitae,cv,développeur web, numérique, contrat de professionnalisation" />
+        <link rel="shortcut icon" href="Publics/IMG/icon/cv.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.anthony-bouillon.fr" />
+        <link rel="alternate" href="https://www.anthony-bouillon.fr" hreflang="fr-fr" />
         <link rel="stylesheet" href="Publics/LIB/materialize/css/materialize.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="Publics/LIB/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -55,12 +57,12 @@ $body = 'body_home';
             <section id="bloc-home">
                 <div class="row">
                     <h2 class="center-align">Bonjour à tous !</h2>
-                    <p class="para-subtitle col s11 offset-s1">&nbsp;&nbsp;&nbsp;&nbsp;Avant toutes choses, voici ce que vous devez savoir ...</p>
                 </div>
                 <div class="row">
                     <p class="para-index col s11 offset-s1">
-                        &nbsp;&nbsp;&nbsp;&nbsp;Ayant obtenu le titre professionnel « <strong class="bold">Développeur-se logiciel TP01280</strong> » Niveau III,
-                        <br/>je suis actuellement à la recherche d'un <strong>contrat de professionnalisation</strong> afin de poursuivre ma formation en licence BAC+(3/4).
+                        &nbsp;&nbsp;&nbsp;&nbsp;Ayant obtenu le titre professionnel " <strong class="bold">Développeur-se logiciel TP01280</strong> " de niveau III,
+                        <br/>je suis actuellement à la recherche d'un <strong>contrat de professionnalisation</strong> afin de poursuivre ma formation de "<strong class="bold">Concepteur Développeur en Informatique</strong>" de niveau II.<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;J’ai le désir d’apprendre de nouveaux langages et de perfectionner ce que j’ai appris au cours de la formation à <a href="http://formation.novei.fr/" title="Site web de l'école numérique du noyonnais">E2N</a> afin d’acquérir de l’expérience et de mettre en application mes compétences au sein d'une entreprise. 
                         <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Après votre visite, si mon profil correspond à vos attentes, contactez-moi via le <a href="Contact" title="Lien redirigeant vers un formulaire de contact">formulaire</a> :)
                     </p>
                 </div>
@@ -114,7 +116,7 @@ $body = 'body_home';
                         <div class="col s8">
                             <span class="white-text text-lighten-4 bold para-footer">Haut de france, Oise, Le Plessis-Brion</span>
                         </div>
-                        <div class="col s1 offset-s2">
+                        <div class="col s12 m1 offset-m2">
                             <a href="https://github.com/AnthonyBouillon" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Github"><i class="fa fa-github" aria-hidden="true" alt="Logo github"></i></a>
                         </div>
                     </div>
@@ -125,7 +127,7 @@ $body = 'body_home';
                         <div class="col s8">
                             <span class="white-text text-lighten-4 bold para-footer">anthony-bouillon@outlook.fr</span>
                         </div>
-                        <div class="col s1 offset-s2">
+                        <div class="col s12 m1 offset-m2">
                             <a href="https://www.linkedin.com/in/anthony-bouillon-44313a151/" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Linkedin"><i class="fa fa-linkedin" alt="Logo linkedin"></i></a>
                         </div>
                     </div>
@@ -136,7 +138,7 @@ $body = 'body_home';
                         <div class="col s8">
                             <span class="white-text text-lighten-4 bold para-footer">06.49.70.52.50</span>
                         </div>
-                        <div class="col s1 offset-s2">
+                        <div class="col s12 m1 offset-m2">
                             <a href="https://twitter.com/_Ant_ho_ny_" title="Lien redirigeant vers le profil d'Anthony Bouillon sur Twitter"><i class="fa fa-twitter" alt="Logo twitter"></i></a>
                         </div>
                     </div>
@@ -148,9 +150,17 @@ $body = 'body_home';
                 </div>
             </div>
         </footer>
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120392400-1" async></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-120392400-1');
+        </script>
         <!-- Librairie materialize, le script javascript principale et le second -->
-        <script src="Publics/LIB/materialize/js/materialize.min.js"></script>
-        <script src="Publics/JS/main.min.js"></script>
-        <script src="Publics/JS/display-text.min.js"></script>
+        <script src="Publics/LIB/materialize/js/materialize.min.js" ></script>
+        <script src="Publics/JS/main.min.js" async></script>
+        <script src="Publics/JS/display-text.min.js" async></script>
     </body>
 </html> 
