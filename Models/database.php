@@ -24,4 +24,3 @@ class dataBase {
         $this->db = NULL;
     }
 }
-//            $this->db = new PDO('mysql:host=anthonyblbkarirr.mysql.db;dbname=anthonyblbkarirr;charset=utf8','anthonyblbkarirr','R36c6nuL');
